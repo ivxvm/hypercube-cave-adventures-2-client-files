@@ -1,0 +1,814 @@
+{
+	autofocus_id: "33684255B2EFDA1A"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3A6E22C89780E05E"
+	group: ""
+	icon: "createdeco:decal_electrical"
+	id: "3A6E22C89780E05E"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "14BF3FAD8ECAEDE2"
+			rewards: [
+				{
+					count: 8
+					id: "151BE3FF18E307E9"
+					item: "farmersdelight:mixed_salad"
+					type: "item"
+				}
+				{
+					id: "2382E11D77F9489A"
+					item: {
+						Count: 1b
+						id: "minecraft:chainmail_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3924EAD7CF2B1074"
+					item: {
+						Count: 1b
+						id: "minecraft:chainmail_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "51783A2894C4166A"
+					item: {
+						Count: 1b
+						id: "minecraft:chainmail_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7BECBDF5AB099475"
+					item: {
+						Count: 1b
+						id: "minecraft:chainmail_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "326EAC6CF6F294B4"
+					item: "comforts:sleeping_bag_white"
+					type: "item"
+				}
+				{
+					id: "14740B6C86719853"
+					item: "alexscaves:cave_book"
+					type: "item"
+				}
+			]
+			subtitle: "&fПерш за все, не нехтуйте інформацією з довідників, якщо незрозуміло що робить або як знайти ту чи іншу річ"
+			tasks: [
+				{
+					id: "6730C9D081C24ACE"
+					item: "alexsmobs:animal_dictionary"
+					type: "item"
+				}
+				{
+					id: "5C8A709585BFB857"
+					item: "integrateddynamics:on_the_dynamics_of_integration"
+					type: "item"
+				}
+			]
+			title: "Довідники"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			icon: "minecraft:chest"
+			id: "78C135625D0AF846"
+			rewards: [{
+				id: "44F2A813A7DDDED8"
+				item: "plushie_buddies:plushie_cat"
+				type: "item"
+			}]
+			subtitle: "&fНаведіть курсор на предмет та натисніть \"Y\" для показу скринь, які містять цей предмет"
+			tasks: [{
+				id: "2A3A5C03F32682C4"
+				title: "Легкий пошук у скринях"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "naturescompass:naturescompass"
+				tag: { }
+			}
+			id: "1E759CED05F9788B"
+			rewards: [{
+				id: "46D7268E5AE28484"
+				item: "plushie_buddies:plushie_donkey"
+				type: "item"
+			}]
+			subtitle: "&fЩойно з'явились у світі, але вже хочете знайти конкретний біом? Компас допоможе"
+			tasks: [{
+				id: "0F14B02638A015D4"
+				title: "Компас мандрівника"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "forbidden_arcanus:eternal_stella"
+				tag: { }
+			}
+			id: "48888BD087845500"
+			rewards: [{
+				id: "1F9F40A29507EEDE"
+				item: "plushie_buddies:plushie_cow"
+				type: "item"
+			}]
+			subtitle: "&fРобить предмети незнищенними"
+			tasks: [{
+				id: "355DD4ABF9CD5F0E"
+				title: "Вічна стела"
+				type: "checkmark"
+			}]
+			title: "Вічна стелла"
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			icon: "forbidden_arcanus:quantum_catcher"
+			id: "2912DE24E0EDE656"
+			rewards: [{
+				id: "10900D2F9F0014C1"
+				item: "plushie_buddies:plushie_sheep"
+				type: "item"
+			}]
+			subtitle: "&fПКМ щоб схопити та випустити моба"
+			tasks: [{
+				id: "5BDA3DCD689E20C4"
+				title: "Квантовий ловець"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			id: "1CB7FE1A81276A5D"
+			rewards: [{
+				id: "194FCE06FFA23682"
+				item: "forbidden_arcanus:growing_edelwood"
+				type: "item"
+			}]
+			subtitle: "&fНе біда, якщо в темному лісі вирубали всі едельвудові дерева. Зроби їх сам клікнувши пкм темною душею по звичайному саджанцю"
+			tasks: [
+				{
+					id: "0D7E1323B458E58A"
+					item: "forbidden_arcanus:corrupt_soul"
+					type: "item"
+				}
+				{
+					id: "069BF5C4CA5BBCFF"
+					item: "minecraft:oak_sapling"
+					type: "item"
+				}
+			]
+			title: "Едельвудовий саджанець"
+			x: -2.5d
+			y: -6.0d
+		}
+		{
+			id: "64872C0FB8E35DA3"
+			rewards: [{
+				id: "0625699FECB549C2"
+				item: "plushie_buddies:plushie_wolf"
+				type: "item"
+			}]
+			subtitle: "&fПальники пломеня можуть приймати рідини напряму з труб, якщо матимуть соломинку"
+			tasks: [
+				{
+					id: "1BF60C8B9B72D2B0"
+					item: "createaddition:straw"
+					type: "item"
+				}
+				{
+					id: "301F4460B5AD1FD5"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+			]
+			title: "Смоктун"
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			icon: "tinyredstone:tiny_redstone_block"
+			id: "52440B7D65C0C3AA"
+			rewards: [{
+				id: "6006B4D581CA70E9"
+				item: "plushie_buddies:plushie_squid"
+				type: "item"
+			}]
+			subtitle: "&fБудь-яка редстоун схема за вашим смаком лише в 1 блоці"
+			tasks: [{
+				id: "5433ED580566AEC9"
+				title: "Компактний редстоун"
+				type: "checkmark"
+			}]
+			title: "Tiny redstone/gates"
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			id: "0C7EFF9C3540D78B"
+			rewards: [{
+				count: 16
+				id: "49BE2547FE9EE871"
+				item: "farmersdelight:kelp_roll"
+				type: "item"
+			}]
+			subtitle: "&fКамені переміщення не можна зламати, також у них змінений крафт. Доведіть, що ви справжній дослідник, перш ніж користуватисть швидким переміщенням."
+			tasks: [{
+				id: "46F45E07ABAD5C87"
+				item: {
+					Count: 1b
+					id: "waystones:warp_stone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			id: "21C5BC96AEC648C5"
+			rewards: [{
+				count: 16
+				id: "251DDF4734D30F67"
+				item: "farmersdelight:kelp_roll"
+				type: "item"
+			}]
+			subtitle: "&fМають змінений крафт. Рюкзаки та сховища мають простий крафт, а ось покращення для них, змушуть навідатись у пару печер."
+			tasks: [
+				{
+					id: "0314F0E90560821D"
+					item: "sophisticatedbackpacks:upgrade_base"
+					type: "item"
+				}
+				{
+					id: "305AF1E0AF88C342"
+					item: "sophisticatedstorage:upgrade_base"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			id: "0812C98893067E89"
+			rewards: [{
+				count: 16
+				id: "218EF5692570EAA8"
+				item: "farmersdelight:kelp_roll"
+				type: "item"
+			}]
+			subtitle: "&fЗручна логістика предметів вимагає навідатись у токсичні печери"
+			tasks: [{
+				id: "1CC810F37A35889D"
+				item: "prettypipes:pipe"
+				type: "item"
+			}]
+			title: "Гарненькі труби"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			id: "7F1BD53856F9D5AD"
+			rewards: [{
+				count: 16
+				id: "1540F48C2E3D365C"
+				item: "farmersdelight:kelp_roll"
+				type: "item"
+			}]
+			subtitle: "&fЗручна система керування складом, вимагає від вас ознайомитись з магнітними печерами"
+			tasks: [
+				{
+					id: "58D9475BC329AC1D"
+					item: "integratedterminals:part_terminal_storage"
+					type: "item"
+				}
+				{
+					id: "592C6D0F10D30EC4"
+					item: "integratedtunnels:part_interface_item"
+					type: "item"
+				}
+				{
+					id: "65EEF175A36ABF12"
+					item: "integratedtunnels:part_interface_fluid"
+					type: "item"
+				}
+			]
+			title: "Сховищетрон 2000"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			id: "0F1F0E499409FD96"
+			rewards: [{
+				id: "54F8B7AE40FCA20B"
+				item: "exposure:album"
+				type: "item"
+			}]
+			subtitle: "&fЗловіть вдалий момент і залиште спогад на папері"
+			tasks: [
+				{
+					id: "3DA0BEE4886715CD"
+					item: "exposure:camera"
+					type: "item"
+				}
+				{
+					id: "61D17BE6B4CEE3EF"
+					item: "exposure:lightroom"
+					type: "item"
+				}
+				{
+					id: "0023C58538849778"
+					item: "exposure:color_film"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			description: [
+				" З цих дерев також падають золоті самородки"
+				" Зовсім небагато, але ферма дерева + ферма золота звучить непогано"
+			]
+			id: "661F9634F7138F0A"
+			rewards: [{
+				id: "5184523342EB8A0C"
+				item: "plushie_buddies:plushie_pig"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0CD47B5863312FEE"
+				item: "forbidden_arcanus:aurum_sapling"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			description: ["Можна купити у мандрівного торговця або ж знайти у світі, зокрема в квітковому лісі"]
+			id: "746F6FF92EF3FB0C"
+			rewards: [{
+				id: "76CED637CA92A5CA"
+				item: "plushie_buddies:plushie_fox"
+				type: "item"
+			}]
+			tasks: [{
+				id: "407FDF7F02CC7030"
+				item: "forbidden_arcanus:yellow_orchid"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			description: ["Мають змінений крафт"]
+			id: "5722345C8E71EB64"
+			rewards: [{
+				count: 16
+				id: "6FAADB071AB0461B"
+				item: "farmersdelight:kelp_roll"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "574FF806E20BF7AD"
+					item: "torchmaster:megatorch"
+					type: "item"
+				}
+				{
+					id: "30AC20EB6AC7E294"
+					item: "torchmaster:feral_flare_lantern"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"Може автоматизувати до 6 різних речей:"
+				"- монета удачі"
+				"- медальйон героя"
+				"- меч"
+				"- відро"
+				"- ножиці"
+				"- вудка"
+				" Що саме і як саме працюють ці речі, можна прочитати у описі п'єдесталу"
+			]
+			id: "7EDBD2BAD477437B"
+			rewards: [{
+				id: "7D81D48F95837102"
+				item: "plushie_buddies:plushie_axolotl"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6E72376E78282101"
+					item: "reliquary:pedestals/white_pedestal"
+					type: "item"
+				}
+				{
+					id: "6E8AB0F0629AACD9"
+					item: "minecraft:lever"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -7.5d
+		}
+		{
+			description: [
+				" Шифт + пкм по вузлу для прив'язування до точки"
+				" Затисніть пкм, поки вас не телепортує на прив'язану точку"
+			]
+			id: "35B774BA72F3E6C4"
+			rewards: [{
+				id: "62C2BC8AA7350A84"
+				item: "plushie_buddies:plushie_frog"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7D4FD6BB0FC76AC7"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								Items: [{
+									amount: 15
+									filter: {
+										Count: 1b
+										id: "minecraft:ender_pearl"
+									}
+								}]
+							}
+						}
+						id: "reliquary:ender_staff"
+						tag: {
+							count: 15
+							dimensionID: "minecraft:dimension"
+							enabled: 0b
+							mode: "node_warp"
+							"nodeXminecraft:dimension": 123
+							"nodeYminecraft:dimension": 96
+							"nodeZminecraft:dimension": 15
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2000AB6755E6FB1A"
+					item: "reliquary:wraith_node"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -7.5d
+		}
+		{
+			description: ["{image:kubejs:textures/ftb/2024-05-15_17.47.57.png width:250 height:150 align:1}"]
+			icon: "quark:iron_rod"
+			id: "4B5DA84606C132AD"
+			rewards: [{
+				id: "09C6A10C088D3A05"
+				item: "plushie_buddies:plushie_mooshroom"
+				type: "item"
+			}]
+			subtitle: "Приблизно раз на хвилину*"
+			tasks: [{
+				id: "7CEB704F700ED26B"
+				title: "Псс, я вам цього не показував.."
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			description: ["Може бути знайдений у пустельній піраміді"]
+			id: "61893884B061C6CB"
+			tasks: [{
+				id: "073B21C60100EC8B"
+				item: {
+					Count: 1b
+					id: "endrem:old_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -15.0d
+			y: -0.5d
+		}
+		{
+			description: ["Може бути знайдений у фортеці незеру"]
+			id: "2B83EDA8B0A86F1D"
+			tasks: [{
+				id: "26D14AAAEFFC3A6E"
+				item: {
+					Count: 1b
+					id: "endrem:nether_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -15.0d
+			y: -1.5d
+		}
+		{
+			description: ["Може бути знайдений в іглу"]
+			id: "1E8A40364A34858D"
+			tasks: [{
+				id: "2D8004CA29CC2BBC"
+				item: {
+					Count: 1b
+					id: "endrem:cold_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -15.0d
+			y: -2.5d
+		}
+		{
+			description: ["Може бути знайдений в джунглевій піраміді"]
+			id: "1C188F9E3D402DB2"
+			tasks: [{
+				id: "20B8050C900AB977"
+				item: {
+					Count: 1b
+					id: "endrem:rogue_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -15.0d
+			y: -3.5d
+		}
+		{
+			description: ["Може бути знайдений на пляжі в скрині зі скарбом"]
+			id: "555E9502C119794E"
+			tasks: [{
+				id: "77FF0ABBC5000682"
+				item: {
+					Count: 1b
+					id: "endrem:black_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.0d
+			y: -4.5d
+		}
+		{
+			description: ["Може випасти з заклинача"]
+			id: "1E987D53DA7532AA"
+			tasks: [{
+				id: "14765FCF5D50E992"
+				item: {
+					Count: 1b
+					id: "endrem:magical_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: -4.5d
+		}
+		{
+			description: ["Може бути знайдений в шахті"]
+			id: "25E76AF7FA911663"
+			tasks: [{
+				id: "4A6F30291C2C9068"
+				item: {
+					Count: 1b
+					id: "endrem:lost_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: -4.5d
+		}
+		{
+			description: ["Може бути знайдений в аванпості розбійників"]
+			id: "080217C1FC4010AE"
+			tasks: [{
+				id: "51BE289C8925D8E8"
+				item: {
+					Count: 1b
+					id: "endrem:corrupted_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: -4.5d
+		}
+		{
+			description: ["Може випасти з візера"]
+			id: "38463EA4F2514959"
+			tasks: [{
+				id: "444AA8B6566202DA"
+				item: {
+					Count: 1b
+					id: "endrem:wither_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -3.5d
+		}
+		{
+			description: ["Може випасти зі стародавнього вартового"]
+			id: "465C51A370AFAEDB"
+			tasks: [{
+				id: "5CF79FAE29B50CAB"
+				item: {
+					Count: 1b
+					id: "endrem:guardian_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"Witch pupil падає з малим шансом з відьом"
+				"А з нього ви можете зробити око"
+			]
+			id: "6220C96C99285506"
+			tasks: [{
+				id: "42053D16EC117B4A"
+				item: {
+					Count: 1b
+					id: "endrem:witch_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -1.5d
+		}
+		{
+			description: ["Можна знайти в бастіонах піґлінів"]
+			id: "4F65A632D922C504"
+			tasks: [{
+				id: "244D7D71095C9705"
+				item: {
+					Count: 1b
+					id: "endrem:cursed_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -0.5d
+		}
+		{
+			description: ["Має крафт, пов'язаний з морем"]
+			id: "09DA3B118E2C4999"
+			tasks: [{
+				id: "2B9F1CAF0135ACBF"
+				item: {
+					Count: 1b
+					id: "endrem:exotic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.0d
+			y: 0.5d
+		}
+		{
+			description: ["Можна купити у священника-майстра"]
+			id: "101EE524875F709F"
+			tasks: [{
+				id: "775C2CB932BCC013"
+				item: {
+					Count: 1b
+					id: "endrem:evil_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: 0.5d
+		}
+		{
+			description: [
+				"Undead soul падає з коня-скелета"
+				"За допомогою undead soul можна зробити око"
+			]
+			id: "66C1226F0B96AD35"
+			tasks: [{
+				id: "21425205755527D1"
+				item: {
+					Count: 1b
+					id: "endrem:undead_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: 0.5d
+		}
+		{
+			description: ["Має невеликий шанс отримання при зачаруванні"]
+			id: "79C6ECD289C355C9"
+			tasks: [{
+				id: "6C0395E09F126805"
+				item: {
+					Count: 1b
+					id: "endrem:cryptic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 0.5d
+		}
+		{
+			description: [
+				" Зберіть 12 будь-яких очей на ваш вибір."
+				" Скористайтесь будь-якими з них, щоб знайти портал."
+				" Вставте їх в кожну вільну рамку без повторів."
+				" Готово, ви чудові!"
+			]
+			icon: "minecraft:end_portal_frame"
+			id: "5B6D5A224C4E3FCF"
+			tasks: [{
+				id: "6E80DD7991CC52EE"
+				title: "Як потрапити в енд?"
+				type: "checkmark"
+			}]
+			x: -12.5d
+			y: -2.0d
+		}
+	]
+	title: "Поради та рекомендації"
+}

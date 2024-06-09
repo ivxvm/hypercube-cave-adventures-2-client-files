@@ -1,0 +1,792 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1D750C6941585878"
+	group: ""
+	icon: "born_in_chaos_v1:death_totem"
+	id: "1D750C6941585878"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"214E00F3D61B10B5"
+				"18A3C50FCB599A72"
+				"080F8EE75765E8DC"
+				"6E390A4CF4534E7F"
+			]
+			id: "1857875E341CACD0"
+			rewards: [{
+				count: 3
+				id: "6FBA3A8D406BABA9"
+				item: "minecraft:spawner"
+				type: "item"
+			}]
+			subtitle: "&fХто взагалі крутить шестерні всередині тієї коробки?"
+			tasks: [{
+				id: "324B74A33B34E5B3"
+				item: "create:creative_motor"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			id: "214E00F3D61B10B5"
+			rewards: [{
+				id: "2458595D2FA1088D"
+				item: "minecraft:spawner"
+				type: "item"
+			}]
+			subtitle: "&fСерце творчих речей."
+			tasks: [{
+				count: 3L
+				id: "1E8984F749BD070A"
+				item: {
+					Count: 1b
+					id: "create:chromatic_compound"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Хроматична сполука"
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["214E00F3D61B10B5"]
+			id: "28CCB402A680F8AD"
+			rewards: [{
+				count: 3
+				id: "3FD5E4B9CA7C81EC"
+				item: "minecraft:spawner"
+				type: "item"
+			}]
+			subtitle: "&fПломені шаленіють від таких смаколиків"
+			tasks: [{
+				id: "7934BBBA5C54FF55"
+				item: "create:creative_blaze_cake"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["214E00F3D61B10B5"]
+			id: "1E647EEC8A9223C5"
+			rewards: [{
+				count: 3
+				id: "595A2D9705730859"
+				item: "minecraft:spawner"
+				type: "item"
+			}]
+			subtitle: "&fЛітати, копати, штовхати, тягнути та багато іншого без обмежень"
+			tasks: [{
+				id: "328E92F66476DB13"
+				item: "create_sa:creative_filling_tank"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			id: "18A3C50FCB599A72"
+			rewards: [
+				{
+					count: 4
+					id: "665695DF973E19EE"
+					item: "minecraft:end_portal_frame"
+					type: "item"
+				}
+				{
+					id: "7F49A2D614C9320A"
+					item: "born_in_chaos_v1:anluka_doors"
+					type: "item"
+				}
+			]
+			subtitle: "&fОберти крізь простір і час"
+			tasks: [{
+				count: 2L
+				id: "62A0222B97E2AC79"
+				item: "createendertransmission:energy_transmitter"
+				type: "item"
+			}]
+			title: "Передавач обертів"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			id: "6E390A4CF4534E7F"
+			rewards: [
+				{
+					id: "46933A65ED8528F0"
+					item: "minecraft:music_disc_relic"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "04CF9CAB70D0A963"
+					item: "minecraft:end_portal_frame"
+					type: "item"
+				}
+			]
+			subtitle: "&fПредмети крізь простір і час"
+			tasks: [{
+				count: 2L
+				id: "47FF34D6BA2AD52C"
+				item: "createendertransmission:item_transmitter"
+				type: "item"
+			}]
+			title: "Передавач предметів"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			id: "080F8EE75765E8DC"
+			rewards: [
+				{
+					count: 4
+					id: "1A1531F0DFE98F9A"
+					item: "minecraft:end_portal_frame"
+					type: "item"
+				}
+				{
+					id: "2EACDA9C7D46261E"
+					item: "alexsmobs:music_disc_thime"
+					type: "item"
+				}
+			]
+			subtitle: "&fРідина крізь простір і час"
+			tasks: [{
+				count: 2L
+				id: "1FD411CA08CBB424"
+				item: "createendertransmission:fluid_transmitter"
+				type: "item"
+			}]
+			title: "Рідинний передавач"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "7C6926B25B727C88"
+			rewards: [
+				{
+					id: "378428B3265ED64D"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "5583DAD681408223"
+					item: "plushie_buddies:plushie_zombie"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "05EA89120F563F0B"
+				type: "kill"
+				value: 500L
+			}]
+			x: -6.5d
+			y: -10.5d
+		}
+		{
+			id: "61F21D2CAE2BAEC3"
+			rewards: [
+				{
+					id: "038741C2E3209119"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "517ECE19277FADDC"
+					item: "plushie_buddies:plushie_skeleton"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "4F50A0DBC7A5F2DD"
+				type: "kill"
+				value: 500L
+			}]
+			x: -5.0d
+			y: -11.5d
+		}
+		{
+			id: "177897D1D3824659"
+			rewards: [
+				{
+					id: "201B4B2979E9E0A8"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "4AF0E2BC82DBBEEE"
+					item: "plushie_buddies:plushie_creeper"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:creeper"
+				id: "5B946A61716CBF0E"
+				type: "kill"
+				value: 500L
+			}]
+			x: -3.5d
+			y: -10.5d
+		}
+		{
+			id: "2FA21CA0C04989C7"
+			rewards: [
+				{
+					id: "685CF9DFD5583FC5"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "36A088CF9B7554C9"
+					item: "plushie_buddies:plushie_spider"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:spider"
+				id: "5F96E4EF3D783B75"
+				type: "kill"
+				value: 500L
+			}]
+			x: -2.0d
+			y: -11.5d
+		}
+		{
+			id: "10FCC0AF99F030A2"
+			rewards: [{
+				id: "32ED922855103820"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				entity: "minecraft:blaze"
+				id: "5D281A30B2121113"
+				type: "kill"
+				value: 500L
+			}]
+			x: 1.0d
+			y: -11.5d
+		}
+		{
+			id: "0A17AA45444F2A56"
+			rewards: [
+				{
+					id: "1B3BB117653FA6D6"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "74938CF3FA5691CA"
+					item: "plushie_buddies:plushie_witch"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:witch"
+				id: "71E40216E3F4E150"
+				type: "kill"
+				value: 500L
+			}]
+			x: -0.5d
+			y: -10.5d
+		}
+		{
+			id: "629623EC8F29F152"
+			rewards: [
+				{
+					id: "4E64DD9728A27CC1"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "46DDF2BEBB5DDAE2"
+					item: "plushie_buddies:plushie_wither_skeleton"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				id: "0F9BDE78D724E5C1"
+				type: "kill"
+				value: 500L
+			}]
+			x: 2.5d
+			y: -10.5d
+		}
+		{
+			id: "0360F8348A528B22"
+			rewards: [{
+				id: "087D4A7401ADC13D"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				entity: "minecraft:slime"
+				id: "7FC47A722DCEA2F0"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 4.0d
+			y: -11.5d
+		}
+		{
+			id: "10F849198432271C"
+			rewards: [{
+				id: "3465D36FF39A8DF4"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				entity: "minecraft:magma_cube"
+				id: "1790A4A749E6C6B8"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 5.5d
+			y: -10.5d
+		}
+		{
+			id: "2F738D05F22007A9"
+			rewards: [{
+				id: "534ED7E984784004"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				entity: "minecraft:guardian"
+				id: "75006B7DE32C9D40"
+				type: "kill"
+				value: 500L
+			}]
+			x: 7.0d
+			y: -11.5d
+		}
+		{
+			id: "5A24BE4D0E89A937"
+			rewards: [{
+				id: "7476B79123DA62E7"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				entity: "minecraft:evoker"
+				id: "526FD87139093D10"
+				type: "kill"
+				value: 500L
+			}]
+			x: 8.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["7C6926B25B727C88"]
+			id: "37A439DEA2A3A4BA"
+			rewards: [{
+				id: "5CFBABC833971295"
+				item: "minecraft:spawner"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "2EB57DE5CC407D5E"
+				type: "kill"
+				value: 1000L
+			}]
+			x: -6.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["61F21D2CAE2BAEC3"]
+			id: "2888333904B6C72B"
+			rewards: [{
+				id: "667B113A7DFC5FED"
+				item: "minecraft:spawner"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "68CA59094C618D5C"
+				type: "kill"
+				value: 1000L
+			}]
+			x: -5.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["177897D1D3824659"]
+			id: "70B775E5B8FAF521"
+			rewards: [{
+				id: "7102F93B95040988"
+				item: "minecraft:spawner"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:creeper"
+				id: "24E0A3DB500E2AFD"
+				type: "kill"
+				value: 1000L
+			}]
+			x: -3.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["2FA21CA0C04989C7"]
+			id: "2898256F5CDE0423"
+			rewards: [{
+				id: "26526199F116C786"
+				item: "minecraft:spawner"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:spider"
+				id: "4467746C5473A298"
+				type: "kill"
+				value: 1000L
+			}]
+			x: -2.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["0A17AA45444F2A56"]
+			id: "71230D7BF4E17511"
+			rewards: [{
+				id: "7AA8519D4A859101"
+				item: "minecraft:spawner"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:witch"
+				id: "0C403D553EBBC0DB"
+				type: "kill"
+				value: 1000L
+			}]
+			x: -0.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["10FCC0AF99F030A2"]
+			id: "6AA18273C92D85BE"
+			rewards: [{
+				id: "7E1802269E2C681A"
+				item: "minecraft:spawner"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:blaze"
+				id: "0B68CCD531F61D9D"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 1.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["629623EC8F29F152"]
+			id: "126A27B490C46135"
+			rewards: [{
+				id: "32BAA3C6011CB845"
+				item: "minecraft:spawner"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				id: "3E00D7B00C6C11F6"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 2.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["0360F8348A528B22"]
+			id: "47FA8B6169EAA391"
+			rewards: [{
+				id: "15520346C1F8BE47"
+				item: "minecraft:spawner"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:slime"
+				id: "294B57EE79FCB783"
+				type: "kill"
+				value: 2000L
+			}]
+			x: 4.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["10F849198432271C"]
+			id: "3BB54211AC8B8030"
+			rewards: [{
+				id: "56B7DE3022D2AF3F"
+				item: "minecraft:spawner"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:magma_cube"
+				id: "5BACDA98A2183C1C"
+				type: "kill"
+				value: 2000L
+			}]
+			x: 5.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["2F738D05F22007A9"]
+			id: "4D833709BDCA4B77"
+			rewards: [{
+				id: "68B16394D4067145"
+				item: "minecraft:spawner"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:guardian"
+				id: "0E9D8B600C2E64F6"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 7.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["5A24BE4D0E89A937"]
+			id: "16CFA1A3AC3948EA"
+			rewards: [{
+				id: "7C5F2F6D0BCA5EC2"
+				item: "minecraft:spawner"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:evoker"
+				id: "564ACC0D1E648BCB"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 8.5d
+			y: -13.5d
+		}
+		{
+			id: "4AA3715FF8C36499"
+			rewards: [{
+				id: "23E12483A70756B4"
+				item: "plushie_buddies:plushie_wither"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "78196AB49EC8D5F7"
+				type: "kill"
+				value: 5L
+			}]
+			x: 10.0d
+			y: -9.5d
+		}
+		{
+			id: "0E71F9D45611F50B"
+			rewards: [{
+				id: "178FC93734449459"
+				item: "plushie_buddies:plushie_enderdragon"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "50B84BE2725E147E"
+				type: "kill"
+				value: 5L
+			}]
+			x: -8.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["4AA3715FF8C36499"]
+			id: "775CAC355442E88D"
+			rewards: [{
+				id: "4E6E0D86727ED0F1"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "6462AB6230993C56"
+				type: "kill"
+				value: 20L
+			}]
+			x: 10.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["775CAC355442E88D"]
+			id: "6A05CEB1EF29AE15"
+			rewards: [{
+				id: "1EA2FDA84857983A"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "23AA9AAA3E8D2EBD"
+				type: "kill"
+				value: 50L
+			}]
+			x: 10.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["0E71F9D45611F50B"]
+			id: "5AAC7D20122D79CE"
+			rewards: [{
+				id: "0F10C5EE5FA20F33"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "139CB03DEE3CC321"
+				type: "kill"
+				value: 10L
+			}]
+			x: -8.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["5AAC7D20122D79CE"]
+			id: "560B824C2A28979B"
+			rewards: [{
+				id: "0999224CE4A2DD02"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "23C18D5386EED51A"
+				type: "kill"
+				value: 20L
+			}]
+			x: -8.0d
+			y: -13.5d
+		}
+		{
+			dependencies: [
+				"560B824C2A28979B"
+				"6A05CEB1EF29AE15"
+				"16CFA1A3AC3948EA"
+				"37A439DEA2A3A4BA"
+				"2888333904B6C72B"
+				"126A27B490C46135"
+				"71230D7BF4E17511"
+				"47FA8B6169EAA391"
+				"3BB54211AC8B8030"
+				"6AA18273C92D85BE"
+				"4D833709BDCA4B77"
+				"2898256F5CDE0423"
+				"70B775E5B8FAF521"
+			]
+			icon: {
+				Count: 1b
+				id: "born_in_chaos_v1:nightmare_mantleofthe_night_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "03AF8582D4B02D10"
+			rewards: [{
+				count: 5
+				id: "5746589F22AA5933"
+				item: "toolbooster:creative_toolbooster"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D23A1FE8E943586"
+				title: "Нічогособі ви скажений"
+				type: "checkmark"
+			}]
+			title: "ТА ЗА ШО ВИ ЇХ УСІХ ТАК? =("
+			x: 1.0d
+			y: -17.5d
+		}
+		{
+			icon: "born_in_chaos_v1:supreme_measure"
+			id: "5A35295032949040"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "28BBAB80529AEDFE"
+				title: "Тест на терпіння"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -9.0d
+		}
+		{
+			description: [" Шукайте нові підземелля та переможіть боса"]
+			id: "7D47F157F7204B39"
+			rewards: [{
+				id: "0E27FC69A05AF28F"
+				item: {
+					Count: 1b
+					id: "dungeonnowloading:skull_of_chaos"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4050A6ABC241F167"
+				item: "dungeonnowloading:chaotic_hexahedron"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"214E00F3D61B10B5"
+				"20DA0CABE4070840"
+			]
+			description: ["Політ без обмежень"]
+			id: "029E3B01FEF0E614"
+			rewards: [{
+				count: 3
+				id: "65CB924A9FD17D62"
+				item: "minecraft:spawner"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1DCF32DDEC344898"
+				item: "balancedflight:ascended_flight_ring"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				" Політ в радіусі дії маяка"
+				"Радіус дії залежить від кількості вхідних обертів"
+			]
+			id: "20DA0CABE4070840"
+			rewards: [{
+				id: "0B65B68A1618385C"
+				item: "plushie_buddies:plushie_warden"
+				type: "item"
+			}]
+			tasks: [{
+				id: "33482183834A6F93"
+				item: "balancedflight:flight_anchor"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.5d
+		}
+	]
+	title: "Випробовування для відчайдухів"
+}

@@ -1,0 +1,742 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "42905716F4D0A835"
+	group: ""
+	icon: "alexscaves:cave_book"
+	id: "42905716F4D0A835"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "08F854471A6F74A6"
+			rewards: [
+				{
+					id: "3A6F3CEBECDDBDA3"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 16
+					id: "61D53E4C9886DA59"
+					item: "farmersdelight:mixed_salad"
+					type: "item"
+				}
+			]
+			subtitle: "&fбубласка, залиште на вході все залізне або незеритове"
+			tasks: [{
+				biome: "alexscaves:magnetic_caves"
+				icon: {
+					Count: 1b
+					id: "alexscaves_torpedoes:magnetic_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "692C743396A46621"
+				type: "biome"
+			}]
+			title: "Увійдіть в магнітні печери"
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["08F854471A6F74A6"]
+			icon: "alexscaves:telecore"
+			id: "686752E52FB6793F"
+			rewards: [{
+				count: 16
+				id: "497D196E0A90E5E9"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			subtitle: "&fСпробуйте ухилятись"
+			tasks: [{
+				entity: "alexscaves:teletor"
+				id: "0BD68EE04E1BD67A"
+				type: "kill"
+				value: 50L
+			}]
+			title: "Вбийте 50 телеторів"
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["08F854471A6F74A6"]
+			id: "589494A557808608"
+			rewards: [{
+				count: 64
+				id: "217CB38EB2EFF9A4"
+				item: "integrateddynamics:cable"
+				type: "item"
+			}]
+			subtitle: "&fНевловимий гівнюк"
+			tasks: [{
+				entity: "alexscaves:notor"
+				icon: "alexscaves:notor_gizmo"
+				id: "0DEBA0600571C82E"
+				type: "kill"
+				value: 50L
+			}]
+			title: "Вбийте 50 ноторів"
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["08F854471A6F74A6"]
+			id: "3EFAE9823472ADF5"
+			rewards: [{
+				id: "3D8222E0DCA94508"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:netherite_barrel"
+					tag: {
+						accentColor: 15961002
+						mainColor: 15961002
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&fБоюсь їх більше за магнетрона"
+			tasks: [{
+				entity: "alexscaves:ferrouslime"
+				icon: "alexscaves:ferrouslime_ball"
+				id: "2BB45E32C7DF993A"
+				type: "kill"
+				value: 50L
+			}]
+			title: "Вбийте 50 металослимаків"
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["08F854471A6F74A6"]
+			id: "24B01B4F5AF63719"
+			rewards: [
+				{
+					id: "34F9219F0FCF0F32"
+					item: "reliquary:fortune_coin"
+					type: "item"
+				}
+				{
+					id: "1C4B30FC7856DBC5"
+					item: "reliquary:pedestals/white_pedestal"
+					type: "item"
+				}
+				{
+					id: "36E04400D83F7D6B"
+					item: "minecraft:redstone_block"
+					type: "item"
+				}
+			]
+			subtitle: "&fКар'єр копає, монетка за ним підбирає. Ось така ось схема"
+			tasks: [{
+				entity: "alexscaves:boundroid"
+				icon: "alexscaves:heavyweight"
+				id: "3E881810FB2403D6"
+				type: "kill"
+				value: 25L
+			}]
+			title: "Вбийте 25 стрибоїдів"
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["08F854471A6F74A6"]
+			id: "189E55F90A1055BE"
+			rewards: [{
+				id: "54F9289AAFFF295F"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:netherite_barrel"
+					tag: {
+						accentColor: 15961002
+						mainColor: 15961002
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&fНарешті нормальний склад"
+			tasks: [{
+				entity: "alexscaves:magnetron"
+				icon: "alexscaves:heart_of_iron"
+				id: "79578E7D5792B70C"
+				type: "kill"
+				value: 25L
+			}]
+			title: "Вбийте 25 магнетронів"
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			id: "134E0B69FA37D8B0"
+			rewards: [
+				{
+					id: "3B15107EAA3243B4"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 16
+					id: "4F4F965B5882DFE4"
+					item: "farmersdelight:mixed_salad"
+					type: "item"
+				}
+			]
+			subtitle: "&fОстерігайтесь гострих зубів"
+			tasks: [{
+				biome: "alexscaves:primordial_caves"
+				icon: "alexscaves:dinosaur_nugget"
+				id: "64B73353E08F5BE3"
+				type: "biome"
+			}]
+			title: "Увійдіть в первісні печери"
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			id: "71B2363374FAFFE5"
+			rewards: [
+				{
+					id: "4D2FFFEE9CD7D8B2"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 16
+					id: "3B890895F3438778"
+					item: "farmersdelight:mixed_salad"
+					type: "item"
+				}
+			]
+			subtitle: "&fЯкщо ти довго дивишся в безодню, то безодня теж дивиться в тебе"
+			tasks: [{
+				biome: "alexscaves:abyssal_chasm"
+				icon: "alexscaves:submarine"
+				id: "1B9CE063209A30B6"
+				type: "biome"
+			}]
+			title: "Увійдіть у безодню"
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			id: "3545728116706A8C"
+			rewards: [
+				{
+					id: "088EC834F9BB07D1"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 16
+					id: "42838717B9EBEAC4"
+					item: "farmersdelight:mixed_salad"
+					type: "item"
+				}
+			]
+			subtitle: "&fПознайомтесь, це культисти. Ммм, а пахнуть як.."
+			tasks: [{
+				biome: "alexscaves:forlorn_hollows"
+				icon: "alexscaves:pure_darkness"
+				id: "230214205EB47C64"
+				type: "biome"
+			}]
+			title: "Увійдіть у порожнечю"
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			id: "09AD213783E3A099"
+			rewards: [
+				{
+					id: "06EE3845BF3A3379"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 16
+					id: "2925B65F879C904D"
+					item: "farmersdelight:mixed_salad"
+					type: "item"
+				}
+			]
+			subtitle: "&fРадощі постапокаліпсису"
+			tasks: [{
+				biome: "alexscaves:toxic_caves"
+				icon: {
+					Count: 1b
+					id: "alexscaves:hazmat_mask"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "11AD23EE02C3BCFF"
+				type: "biome"
+			}]
+			title: "Увійдіть у токсичні печери"
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["71B2363374FAFFE5"]
+			id: "1B2A8A63C7AE8203"
+			rewards: [
+				{
+					id: "3EBD1946D8F46B83"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "7862B56C69C0B092"
+					item: "alexscaves:submarine"
+					type: "item"
+				}
+			]
+			subtitle: "&fВін казиться, якщо посвітити йому в очі"
+			tasks: [{
+				entity: "alexscaves:hullbreaker"
+				icon: "alexscaves:immortal_embryo"
+				id: "36F8676A97065E65"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Вбийте суднолама"
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["71B2363374FAFFE5"]
+			id: "6F64C3F9E0B7B8C3"
+			rewards: [{
+				count: 8
+				id: "7344AD0FBB62FC42"
+				item: "alexscaves:pearl"
+				type: "item"
+			}]
+			subtitle: "&fКлянусь, вони розумні! Просто трохи інакші"
+			tasks: [
+				{
+					id: "7A1C3046A05C3EF7"
+					item: "alexscaves:abyssal_altar"
+					type: "item"
+				}
+				{
+					id: "2F444CE840E1A162"
+					item: "alexscaves:pearl"
+					type: "item"
+				}
+			]
+			title: "Інша цивілізація"
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6F64C3F9E0B7B8C3"]
+			id: "3142172F0DB38892"
+			rewards: [{
+				id: "1E7DE249E7834EB5"
+				item: "alexscaves:block_of_pearl"
+				type: "item"
+			}]
+			subtitle: "&fОбміняйте знайдені перлини з мідій на усілякі штуки"
+			tasks: [
+				{
+					id: "3ADB87373E5703E7"
+					item: "alexscaves:sea_glass_shards"
+					type: "item"
+				}
+				{
+					id: "1DD031F7CAEF56D1"
+					item: "alexscaves:gazing_pearl"
+					type: "item"
+				}
+				{
+					id: "243757B33B44073B"
+					item: "minecraft:sponge"
+					type: "item"
+				}
+			]
+			title: "Глибоководники"
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6F64C3F9E0B7B8C3"]
+			id: "71587679A6147EAE"
+			rewards: [{
+				id: "0C9F4A2450F8FD7B"
+				item: "alexscaves:block_of_pearl"
+				type: "item"
+			}]
+			subtitle: "&fКраще торгувати, аніж воювати"
+			tasks: [
+				{
+					id: "4FEFD232A4C6A440"
+					item: {
+						Count: 1b
+						id: "alexscaves:ortholance"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1EA059479F824AFA"
+					item: {
+						Count: 1b
+						id: "minecraft:trident"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "314BFC494D3C8847"
+					item: {
+						Count: 1b
+						id: "alexscaves:magic_conch"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Глибоководники - лицарі"
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6F64C3F9E0B7B8C3"]
+			id: "0B9C896ACDC55694"
+			rewards: [{
+				id: "191460E13EDCB9DE"
+				item: "alexscaves:block_of_pearl"
+				type: "item"
+			}]
+			subtitle: "&fПідводна магія?"
+			tasks: [
+				{
+					id: "72EAD01E0891386E"
+					item: {
+						Count: 1b
+						id: "alexscaves:sea_staff"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "493B0812D8C2BC94"
+					item: "minecraft:nautilus_shell"
+					type: "item"
+				}
+			]
+			title: "Глибоководники - чаклуни"
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["71B2363374FAFFE5"]
+			id: "2219C5AA0B5BD1DE"
+			rewards: [{
+				count: 4
+				id: "2FA1630C87A20C43"
+				item: "alexscaves:block_of_pearl"
+				type: "item"
+			}]
+			subtitle: "&fЦе шо підводні кріпери?"
+			tasks: [{
+				entity: "alexscaves:mine_guardian"
+				icon: "alexscaves:depth_charge"
+				id: "12BA294F0798F05D"
+				type: "kill"
+				value: 25L
+			}]
+			title: "Вбийте 25 глибинних вартових"
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3545728116706A8C"]
+			id: "0925C54F7F203D21"
+			rewards: [{
+				id: "2AA6FF29C94618DF"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "&fЯкщо не хочете проблем, не давайте культистам провести свої брудні ритуали"
+			tasks: [{
+				entity: "alexscaves:underzealot"
+				icon: "alexscaves:dark_tatters"
+				id: "33FF553B65BB98F6"
+				type: "kill"
+				value: 25L
+			}]
+			title: "Вбийте 25 підзелотів"
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0925C54F7F203D21"]
+			id: "03E87B41E410E3B2"
+			rewards: [{
+				count: 8
+				id: "1DDF8D0B85C16542"
+				item: "alexscaves:occult_gem"
+				type: "item"
+			}]
+			subtitle: "&fЯ попереджав про ритуали, але це ще не найстрашніший!"
+			tasks: [{
+				entity: "alexscaves:watcher"
+				icon: "alexscaves:occult_gem"
+				id: "1FF39385823E8A8E"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Вбийте 10 споглядачів"
+			x: -3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0925C54F7F203D21"]
+			id: "298E8277B1A222DF"
+			rewards: [
+				{
+					id: "4F660AEFCABB3AA2"
+					item: {
+						Count: 1b
+						id: "reliquary:potion_essence"
+						tag: {
+							effects: [{
+								duration: 7500
+								name: "minecraft:health_boost"
+								potency: 2
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6FF7BF07FEFC5DA1"
+					item: {
+						Count: 1b
+						id: "reliquary:potion_essence"
+						tag: {
+							effects: [{
+								duration: 7500
+								name: "minecraft:absorption"
+								potency: 2
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "&fВас не залякати, еге ж?"
+			tasks: [{
+				entity: "alexscaves:forsaken"
+				id: "7F42F23F57DA9DA4"
+				type: "kill"
+				value: 4L
+			}]
+			title: "Вбийте 4 покинутих"
+			x: -1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["09AD213783E3A099"]
+			icon: "alexscaves:green_soylent"
+			id: "7A5F8252237F92A9"
+			rewards: [{
+				count: 32
+				id: "6CDCB4CFC9C0C114"
+				item: "alexscaves:green_soylent"
+				type: "item"
+			}]
+			subtitle: "&fЗдається я бачив щось схоже в resident evil.. бррр"
+			tasks: [{
+				entity: "alexscaves:brainiac"
+				id: "76FCB7FDB73EC0D3"
+				type: "kill"
+				value: 20L
+			}]
+			title: "Вбийте 20 мозколамів"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["09AD213783E3A099"]
+			id: "6BA5F5A2C314E5C8"
+			rewards: [{
+				id: "228B5AF858036126"
+				item: "alexscaves:music_disc_fusion"
+				type: "item"
+			}]
+			subtitle: "&fДавайте пранки з динамітом залишимо в минулому, бо це стає вже по справжньому небезпечно"
+			tasks: [{
+				entity: "alexscaves:nucleeper"
+				icon: "alexscaves:fissile_core"
+				id: "20A2947988A027E8"
+				type: "kill"
+				value: 50L
+			}]
+			title: "Вбийте 50 нукліперів"
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"1B2A8A63C7AE8203"
+				"09AD213783E3A099"
+				"119A9C962042DE0E"
+				"5129A52C88A1DB4A"
+			]
+			id: "5D602383CA1F2DF1"
+			rewards: [{
+				id: "070390067F1385D4"
+				item: "minecraft:saddle"
+				type: "item"
+			}]
+			subtitle: "&fЧистий хаос, але вам під силу його осідлати"
+			tasks: [{
+				id: "01588393CC499611"
+				item: "alexscaves:tremorzilla_egg"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["134E0B69FA37D8B0"]
+			icon: "alexscaves:vallumraptor_egg"
+			id: "1DFCACC4C108D18E"
+			rewards: [{
+				id: "58655896AED596A1"
+				item: "alexscaves:serene_salad"
+				type: "item"
+			}]
+			subtitle: "&fПотенційні союзники всюди"
+			tasks: [
+				{
+					count: 8L
+					id: "7C64FBFEB5B0031A"
+					item: { Count: 8b, id: "alexscaves:dinosaur_nugget" }
+					type: "item"
+				}
+				{
+					id: "54B7DE097A7DEA3F"
+					item: "alexscaves:serene_salad"
+					type: "item"
+				}
+			]
+			title: "Валумраптори"
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["134E0B69FA37D8B0"]
+			id: "1F0E14C040BE9407"
+			rewards: [{
+				count: 8
+				id: "4614F721AA85C9F3"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			subtitle: "&fШкода цих добряків, але шкіра у них цінна"
+			tasks: [{
+				entity: "alexscaves:grottoceratops"
+				icon: "alexscaves:tough_hide"
+				id: "06C85E922E878174"
+				type: "kill"
+				value: 20L
+			}]
+			title: "Вбийте 20 ґротоцератопсів"
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["134E0B69FA37D8B0"]
+			icon: "alexscaves:subterranodon_egg"
+			id: "1B0344FFE0E266FA"
+			rewards: [{
+				id: "48586872DB29A138"
+				item: "alexscaves:subterranodon_egg"
+				type: "item"
+			}]
+			subtitle: "&fМайже як елітри, але можуть накакати на голову"
+			tasks: [
+				{
+					count: 8L
+					id: "430ABD8E60BD8DA9"
+					item: { Count: 8b, id: "alexscaves:trilocaris_tail" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "289265E5967E3264"
+					item: { Count: 8b, id: "minecraft:cod" }
+					type: "item"
+				}
+			]
+			title: "Приручіть субтеранодона"
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["134E0B69FA37D8B0"]
+			id: "119A9C962042DE0E"
+			rewards: [{
+				count: 2
+				id: "586EECE10214DC83"
+				item: "minecraft:sniffer_egg"
+				type: "item"
+			}]
+			subtitle: "&fВдарити - нагодувати, вдарити - нагодувати, повторювати до бажаного результату"
+			tasks: [
+				{
+					id: "5425B8A5EA0366C8"
+					item: {
+						Count: 1b
+						id: "alexscaves:primitive_club"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "24BC6D85886508F8"
+					item: "alexscaves:serene_salad"
+					type: "item"
+				}
+			]
+			title: "Перевиховуємо чисту лють"
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["134E0B69FA37D8B0"]
+			id: "5129A52C88A1DB4A"
+			rewards: [{
+				count: 16
+				id: "6CDBAE56B3A1FF84"
+				item: "alexscaves:limestone_spear"
+				type: "item"
+			}]
+			subtitle: "&fКиньте у вулкан, для отримання призу"
+			tasks: [{
+				id: "122111F2C15D6670"
+				item: "alexscaves:ominous_catalyst"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+	]
+	title: "Печерні випробовування"
+}

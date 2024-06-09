@@ -1,0 +1,7 @@
+#Sat Jun 08 11:21:40 EEST 2024
+animationSpeed=0.25
+TAA=false
+MB_strength=0.008
+gamma=2.4
+Fog=false
+waves_amplitude=0.55

@@ -1,0 +1,1656 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "7E3E117126788DF8"
+	group: ""
+	icon: "alexsmobs:ender_residue"
+	id: "7E3E117126788DF8"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"  Ви один з вчених, які досліджували так званий \"гіперкуб\", який час від часу породжував невідомий портал. Чи то необережність чи вас зачарував портал, та ви ступили через нього, знаючи що ніхто з попередніх людей не повертався з нього."
+				"{image:kubejs:textures/ftb/2024-05-16_15.01.30.png width:100 height:100 align:1}"
+				"{@pagebreak}"
+				" Ви ступили в нього і повз вас здається почав проноситись весь час від зародження і до кінця Всесвіту. Ви намагались взаємодіяти з тією оболонкою в яку вас наче посадили, щоб безпечно провести крізь простір та час. Та ця взаємодія щоразу призводила до викривлення відомого вами порядку речей."
+				"{image:kubejs:textures/ftb/2024-05-16_15.21.55.png width:204 height:120 align:1}"
+				"{@pagebreak}"
+				" Ось ви провели рукою по місцю де ви бачили знайомі ландшафти, як тут враз вони змішались і утворили щось нове. Провели в іншому місці і старі добрі, велетні динозаври опинились під землею та оминули радощі величезного астероїда."
+				"{image:kubejs:textures/ftb/2024-05-16_15.26.34.png width:204 height:120 align:1}"
+				"{@pagebreak}"
+				" Вас це налякало, але ви доторкнулись ще раз і перед очима з'явились дивні червоно-сині химери, - \"вони що живі?\" Спитали ви себе. Це не схоже на органічні сполуки, але вони явно поводились подібно земним створінням."
+				"{image:kubejs:textures/ftb/2024-05-16_15.29.09.png width:204 height:120 align:1}"
+				"{@pagebreak}"
+				" \"Що це в біса за світ?\" не встигли ви подумати, як опинились на новій, незвіданій землі."
+				"{image:kubejs:textures/ftb/2024-05-16_15.32.01.png width:204 height:120 align:1}"
+				"{@pagebreak}"
+				" Що ж.. ви живі, а значить єдиним варіантом залишається дослідити та освоїти цей химерний світ. Хто зна, можливо вдасться навіть процвітати. А поки цікаво де знаходяться інші жертви порталу та чи живі вони взагалі."
+				"{image:kubejs:textures/ftb/2024-05-16_15.36.26.png width:150 height:150 align:1}"
+				"{@pagebreak}"
+				"Directed by Mr.Myak and GirkaRyba"
+			]
+			icon: "alexsmobs:ender_residue"
+			id: "79ED637A2B0D7A4E"
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "2A2442DBD59BCEE5"
+				title: "Куди я потрапив?"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["79ED637A2B0D7A4E"]
+			description: [" Люди.. люди ніколи не змінюються... Не встигли ви пробути в новому світі і 30 хвилин, як помітили сліди діяльності начебто 3 окремих груп людей. Які звісно ж не збираються співпрацювати між собою."]
+			icon: "alexscaves:nuclear_bomb"
+			id: "1598207DCF793F91"
+			tasks: [{
+				id: "345640C0037B86A8"
+				title: "Нічого нового.."
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1598207DCF793F91"]
+			description: [
+				"ІКАРУС - не дуже успішна наукова компанія, з купою боргів. Яка покладає останні надії збагатитись, шляхом вивчення артефакту, назву якого вони позичили у культистів - “гіперкуб”. Гіперкуб мав здатність час від часу створювати над собою портал. В головах більшості вчених, цей портал виглядав, як найбільше наукове відкриття останніх кількох столітть. Але знайти відкриття, це лише пів-діла. Головним випробовуванням стало його приборкання. І саме цей шлях майже довів до банкрутсва “Ікарус”"
+				"{image:kubejs:textures/ftb/icarus.png width:180 height:120 align:1}"
+			]
+			icon: {
+				Count: 1b
+				id: "create_sa:portable_drill"
+				tag: { }
+			}
+			id: "2020BBAB77FE6FFE"
+			tasks: [{
+				id: "02B9A3FC88CB77C5"
+				title: "\"ІКАРУС\""
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1598207DCF793F91"]
+			description: [
+				" “КУЛЬТ ГІПЕРКУБУ” - сектанти, які побудували свою релігію навколо священного та справедливого “гіперкубу”. Портал для них, це спосіб потрапити у другий з п’яти випробовувальних світів. Тільки найдостойніші, з чистою душею послідовники мали право скористатись порталом, щоб потрапити у цей другий світ та пройти випробовування і перейти до наступного світу на шляху до вічного блаженства."
+				"{image:kubejs:textures/ftb/cult.png width:180 height:120 align:1}"
+				"{@pagebreak}"
+			]
+			icon: {
+				Count: 1b
+				id: "endrem:cursed_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "42454F362606934A"
+			tasks: [{
+				id: "2B823CD72A8BE2EA"
+				title: "\"КУЛЬТ ГІПЕРКУБУ\""
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1598207DCF793F91"]
+			description: [
+				" “ПОПАДАНЦІ” - так багато різних людей, від бандитів з боржниками до відчайдушних авантюристів з втомленими від життя домогосподарками, наважились скористатись послугами нечистих на руку послідовників культу “гіперкуба”, щоб перенестись у дивний новий світ. Де вони можуть стати абсолютно новими людьми та почати нове життя."
+				"{image:kubejs:textures/ftb/adventurer.png width:180 height:120 align:1}"
+			]
+			icon: {
+				Count: 1b
+				id: "create_sa:brass_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "30B38CE976397C44"
+			tasks: [{
+				id: "499CFD29E8AB4C52"
+				title: "\"ПОПАДАНЦІ\""
+				type: "checkmark"
+			}]
+			x: 8.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["30B38CE976397C44"]
+			description: [" Відвідайте вимір пекла"]
+			icon: "minecraft:netherrack"
+			id: "6145E6ABD5BFFA61"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "1E0BDC098C0ED8B6"
+				type: "dimension"
+			}]
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["30B38CE976397C44"]
+			description: [" Відвідайте верхній світ"]
+			icon: "minecraft:grass_block"
+			id: "74EFE04F75CC20D3"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "12BCBF1E04E6241B"
+				type: "dimension"
+			}]
+			x: 18.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["74EFE04F75CC20D3"]
+			description: [" Убийте будь-яку істоту на відстані 100 блоків за допомогою орла у капюшоні."]
+			id: "27C9424E641041DA"
+			rewards: [{
+				id: "72230B3E94CFB806"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/bald_eagle_challenge"
+				criterion: ""
+				id: "17D530329245CD4B"
+				type: "advancement"
+			}]
+			x: 21.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["74EFE04F75CC20D3"]
+			description: [" Отримайте лялечку мурахи-листоріза, яку можна помістити на землю, щоб створити нову колонію мурах-лісторізів."]
+			id: "4ACB9D60F19A0917"
+			rewards: [{
+				id: "7C2A9E2357EC9976"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/leafcutter_ant_pupa"
+				criterion: ""
+				id: "3F7EE87D5314EDF5"
+				type: "advancement"
+			}]
+			x: 17.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6145E6ABD5BFFA61"]
+			description: [" Зробіть шпурборд з незериту та шпурліту."]
+			id: "70CE3AAAE7EE675C"
+			rewards: [{
+				id: "5F6A0C0BCE078B42"
+				item: "plushie_buddies:plushie_spider"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/straddleboard"
+				criterion: ""
+				id: "45F2E2B2E614A182"
+				type: "advancement"
+			}]
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["74EFE04F75CC20D3"]
+			description: [" Створіть буревійник. Тепер ви можете творити власні мінібурі!"]
+			id: "7E000C59A7CEEDF2"
+			rewards: [{
+				id: "7018622BE05232D2"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/gustmaker"
+				criterion: ""
+				id: "4C8E4A759C282D1A"
+				type: "advancement"
+			}]
+			x: 18.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["74EFE04F75CC20D3"]
+			description: [" Створіть крокодилячий нагрудник зі щитків крокодила"]
+			id: "00A110F2A9C73D46"
+			rewards: [{
+				id: "01E9F4538694D1B9"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/crocodile_chestplate"
+				criterion: ""
+				id: "42044BFDD3F352EB"
+				type: "advancement"
+			}]
+			x: 19.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["74EFE04F75CC20D3"]
+			description: [" Зробіть панцир черепахи з шипами"]
+			id: "7A8E2FA8B836F5B7"
+			rewards: [{
+				id: "04CD56ABAFF478E3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/spiked_turtle_shell"
+				criterion: ""
+				id: "66279F13EDBADD47"
+				type: "advancement"
+			}]
+			x: 20.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["74EFE04F75CC20D3"]
+			description: [" Отримайте веселкове желе з реброплава. Використовуйте губку, якщо вам не подобається те, що відбувається..."]
+			id: "461A247EEA465C8D"
+			rewards: [{
+				id: "6CA33BC5355241E8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/rainbow_jelly"
+				criterion: ""
+				id: "51769387BEF3CDCD"
+				type: "advancement"
+			}]
+			x: 22.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["74EFE04F75CC20D3"]
+			description: [" Приручіть слона з іклами, поки він ще маленький"]
+			id: "040511101F1BF871"
+			rewards: [{
+				id: "3285700B273EE825"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/tame_elephant_tusked"
+				criterion: ""
+				id: "5EE7348E7AF70B6B"
+				type: "advancement"
+			}]
+			x: 22.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["74EFE04F75CC20D3"]
+			description: [" Створіть щупальце-крюк з втраченого щупальця, арбалета та мідних злитків."]
+			id: "4DA38655F246CFF6"
+			rewards: [{
+				id: "693BE4A256A6B1B9"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/squid_grapple"
+				criterion: ""
+				id: "6ABA5104D20B31E6"
+				type: "advancement"
+			}]
+			x: 22.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["74EFE04F75CC20D3"]
+			description: [" Приручіть тарантула-яструба, нагодувавши його очима павука."]
+			id: "4E5BFB6265AA0FD8"
+			rewards: [{
+				id: "30837D084EC18A5C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/tame_tarantula_hawk"
+				criterion: ""
+				id: "5023958EA9E386FD"
+				type: "advancement"
+			}]
+			x: 16.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6145E6ABD5BFFA61"]
+			description: [" Зробіть гемолімфатичний бластер, найкраще вдосконалення розпилювача крові."]
+			id: "4B26162560709EA2"
+			rewards: [{
+				id: "2E70A413180BCFC2"
+				item: "plushie_buddies:plushie_skeleton_horse"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/hemolymph_blaster"
+				criterion: ""
+				id: "2D67B0A86CC0E477"
+				type: "advancement"
+			}]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["74EFE04F75CC20D3"]
+			description: [" Прикриття під прикриттям"]
+			id: "2C308EB1E1C3C7E2"
+			rewards: [{
+				id: "25A64DAE1B77D031"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/breed_froststalker"
+				criterion: ""
+				id: "4B5DB71781A6675F"
+				type: "advancement"
+			}]
+			x: 22.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["74EFE04F75CC20D3"]
+			description: [" Приборкайте горилу за допомогою бананів"]
+			id: "401B6C4F452DB8FC"
+			rewards: [{
+				id: "3EF8D7B1CD723900"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/tame_gorilla"
+				criterion: ""
+				id: "75BF7297EAFFC2C9"
+				type: "advancement"
+			}]
+			x: 22.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7D757060B047ED48"]
+			description: [" Підхопіть грип Енду. Вилікуйте його, з’ївши багато фруктів хоруса або випивши молока. Переконайтесь, що не знехтували здоров'ям!"]
+			id: "77D0DB54F0A7BE8F"
+			rewards: [{
+				id: "22B5F69B23E4B045"
+				item: "plushie_buddies:plushie_enderman"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/ender_flu"
+				criterion: ""
+				id: "0B659B40C4F1BB5F"
+				type: "advancement"
+			}]
+			x: 7.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["74EFE04F75CC20D3"]
+			description: [" Подаруйте маракаси таргану і насолоджуйтеся шоу. ¡Кукарача!"]
+			id: "610D131E66B722E5"
+			rewards: [{
+				id: "00B922D4F2399461"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/la_cucaracha"
+				criterion: ""
+				id: "6C647C35A5E379C1"
+				type: "advancement"
+			}]
+			x: 22.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["74EFE04F75CC20D3"]
+			description: [" Прив'яжіть кожен вид жаб на повідець"]
+			id: "5BDDBD161E2EB7EB"
+			rewards: [{
+				id: "77866580C7E7F776"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "minecraft:husbandry/leash_all_frog_variants"
+				criterion: ""
+				id: "5251783ADC0C80C6"
+				type: "advancement"
+			}]
+			x: 18.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["74EFE04F75CC20D3"]
+			description: [" Використайте незеритовий злиток, щоб покращити мотику, а потім обдумайте свої життєві рішення"]
+			id: "26F9E63CBC8E08F9"
+			rewards: [{
+				id: "11AFA691B7B24DDB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "minecraft:husbandry/obtain_netherite_hoe"
+				criterion: ""
+				id: "0994929786E8DAAE"
+				type: "advancement"
+			}]
+			x: 17.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["74EFE04F75CC20D3"]
+			description: [" Очистіть печерепаху після того, як вона відновить свою руду, з'ївши сяючі ягоди"]
+			id: "48BAA690087E7282"
+			rewards: [{
+				id: "161ED96ECC8FD2C0"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "quark:mine_fed_toretoise"
+				criterion: ""
+				id: "5AAB89FD16E7D49B"
+				type: "advancement"
+			}]
+			x: 19.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["74EFE04F75CC20D3"]
+			description: [" Успішно отруїть дитинча тварини отруйною картоплею"]
+			id: "3823678D3A004140"
+			rewards: [{
+				id: "49B107BA57AB6115"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "quark:poison_baby"
+				criterion: ""
+				id: "277DB6C825AAEF9F"
+				type: "advancement"
+			}]
+			x: 16.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["74EFE04F75CC20D3"]
+			description: [" Отримайте власну голову від названого снігового ґолема, якого вбила відьма"]
+			id: "412D220582B77D61"
+			rewards: [{
+				id: "6F24ED1099327CB1"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "quark:get_own_head"
+				criterion: ""
+				id: "404E4E5B25B7C418"
+				type: "advancement"
+			}]
+			x: 20.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["74EFE04F75CC20D3"]
+			description: [" Поторгуйтесь із селянином на максимальній висоті будівництва"]
+			id: "403FB317DE6DEB5D"
+			rewards: [{
+				id: "3B433AB618575B5B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "minecraft:adventure/trade_at_world_height"
+				criterion: ""
+				id: "16F60B0C7EF82707"
+				type: "advancement"
+			}]
+			x: 15.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["74EFE04F75CC20D3"]
+			description: [" Створіть розпилювач смороду."]
+			id: "2AC880AED8588C22"
+			rewards: [{
+				id: "049C0627D83CE347"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/stink_ray"
+				criterion: ""
+				id: "5D2407E9A17C6F5E"
+				type: "advancement"
+			}]
+			x: 22.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["74EFE04F75CC20D3"]
+			description: [" Зробіть годівницю колібрі, щоб тримати колібрі поруч"]
+			id: "62F65B68801855CA"
+			rewards: [{
+				id: "3E7353BBD0FCF066"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/hummingbird_feeder"
+				criterion: ""
+				id: "13B3C550B80FCEEB"
+				type: "advancement"
+			}]
+			x: 21.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["74EFE04F75CC20D3"]
+			description: [" Відкрийте 100 скринь в данжах"]
+			id: "3632C8C829E04510"
+			rewards: [{
+				id: "6B61630C22C30B50"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "lootr:100loot"
+				criterion: ""
+				id: "3552DAF271C5D391"
+				type: "advancement"
+			}]
+			x: 15.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6145E6ABD5BFFA61"]
+			description: [" Дослідіть усі біоми незеру"]
+			id: "713DE3260DD3664D"
+			rewards: [{
+				id: "6382E97CCE1F0546"
+				item: "plushie_buddies:plushie_skeleton"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:nether/explore_nether"
+				criterion: ""
+				id: "042E5D9B5776BB20"
+				type: "advancement"
+			}]
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6145E6ABD5BFFA61"]
+			description: [" Увійдіть у залишки бастіону"]
+			id: "3F75A323C8C9A408"
+			tasks: [{
+				advancement: "minecraft:nether/find_bastion"
+				criterion: ""
+				id: "234C5CEBE9AC223A"
+				type: "advancement"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3F75A323C8C9A408"]
+			id: "11055AEDE622F4C6"
+			rewards: [{
+				count: 8
+				id: "4C714C6664E032FD"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "34ECDE97F2306A60"
+				item: { Count: 8b, id: "minecraft:gold_block" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3F75A323C8C9A408"]
+			id: "7D84126C1EF994F5"
+			rewards: [{
+				count: 16
+				id: "080E6924E4FA93C5"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A5164859AC6DB8F"
+				item: "minecraft:ancient_debris"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3F75A323C8C9A408"]
+			id: "22BABEBFC3282AA0"
+			rewards: [{
+				id: "6CCF159FC52BF704"
+				item: {
+					Count: 1b
+					id: "reliquary:mob_charm"
+					tag: {
+						Damage: 0
+						entity: "minecraft:piglin"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:piglin"
+				id: "54143CF85306F729"
+				type: "kill"
+				value: 50L
+			}]
+			x: 12.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6145E6ABD5BFFA61"]
+			description: [" Пробийте собі шлях до незерської фортеці."]
+			id: "21DC9766F75CB6CD"
+			tasks: [{
+				advancement: "minecraft:nether/find_fortress"
+				criterion: ""
+				id: "1112466B8993AA0D"
+				type: "advancement"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["21DC9766F75CB6CD"]
+			id: "36441A93303424CE"
+			rewards: [{
+				id: "597CCCFAD516EDCD"
+				item: {
+					Count: 1b
+					id: "reliquary:mob_charm"
+					tag: {
+						Damage: 0
+						entity: "minecraft:blaze"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:blaze"
+				id: "2A528DEBD1C8E777"
+				type: "kill"
+				value: 50L
+			}]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["21DC9766F75CB6CD"]
+			id: "70CB8B55DD710735"
+			rewards: [{
+				id: "3CE101226B9106CE"
+				item: {
+					Count: 1b
+					id: "reliquary:mob_charm"
+					tag: {
+						Damage: 0
+						entity: "minecraft:wither_skeleton"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				id: "2071856F096FA994"
+				type: "kill"
+				value: 50L
+			}]
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["70CB8B55DD710735"]
+			description: [" Маячня?"]
+			id: "66925CBDC14A2B1D"
+			rewards: [{
+				count: 50
+				id: "78B52232957CD3B9"
+				item: "minecraft:feather"
+				type: "item"
+			}]
+			tasks: [{
+				id: "11E1438174A718A8"
+				item: "minecraft:beacon"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7D757060B047ED48"]
+			description: [" Зберіть дихання дракона в скляну пляшку"]
+			id: "5A55F33B07B3DFAF"
+			rewards: [{
+				id: "74CB9E3B3E3166C3"
+				item: "plushie_buddies:plushie_zombie"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:end/dragon_breath"
+				criterion: ""
+				id: "7370201177EB70EB"
+				type: "advancement"
+			}]
+			x: 6.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7D757060B047ED48"]
+			description: [" Киньте таємничого хробака в порожнечу Енду й готуйтеся до зустрічі з пустотним хробаком."]
+			id: "3F395D417BBAFBCF"
+			rewards: [{
+				id: "7ACF805817F95A97"
+				item: "plushie_buddies:plushie_zoglin"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/void_worm_summon"
+				criterion: ""
+				id: "00E2DD937D01DD00"
+				type: "advancement"
+			}]
+			x: 10.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["3F395D417BBAFBCF"]
+			description: [" Розділіть пустотного хробака навпіл, атакуючи один із сегментів його тіла. Більше черв'яків, більше проблем!"]
+			id: "6AFD36F7DEA6D74A"
+			rewards: [{
+				id: "5A8B2BDD9B7122C5"
+				item: "plushie_buddies:plushie_ghast"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/void_worm_split"
+				criterion: ""
+				id: "4E5B0C9842F6D8FE"
+				type: "advancement"
+			}]
+			x: 10.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["7D757060B047ED48"]
+			description: [" Зробіть ракету ендеріофага, яку можна використовувати замість ракет-феєрверків у Енді."]
+			id: "4B8D83414769ADC5"
+			rewards: [{
+				id: "281E13F874DEAE1A"
+				item: "plushie_buddies:plushie_mooshroom"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/enderiophage_rocket"
+				criterion: ""
+				id: "157583D19145D621"
+				type: "advancement"
+			}]
+			x: 8.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7D757060B047ED48"]
+			description: [" Приручіть космау, згодувавши йому космічну тріску"]
+			id: "4C54633A63C93869"
+			rewards: [{
+				id: "5CEDAA855F5849A7"
+				item: "plushie_buddies:plushie_phantom"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/tame_cosmaw"
+				criterion: ""
+				id: "7EC29A804A05F9FC"
+				type: "advancement"
+			}]
+			x: 9.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["30B38CE976397C44"]
+			description: [" Відвідайте вимір енду"]
+			icon: "minecraft:end_stone"
+			id: "7D757060B047ED48"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "04D5D423BE626274"
+				type: "dimension"
+			}]
+			x: 8.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["42454F362606934A"]
+			description: [
+				" Культисти виявили кілька видів мобів, яких об'єднує спільне походження."
+				" Послідовники не очікували, що моби опиняться настільки сильними."
+				" Тому вони просять вас допомогти з очищенням світу від цих мобів."
+				" В нагороду ви станете \"гідним\" та матимете право перейти в інший світ, в незалежності від вашого походження."
+			]
+			icon: "born_in_chaos_v1:lord_pumpkinheads_lamp"
+			id: "7D50D925D29205DB"
+			tasks: [{
+				id: "5589536ED807726D"
+				title: "Народжені в хаосі"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7D50D925D29205DB"]
+			id: "5758992850461E70"
+			rewards: [{
+				id: "00EAC24BB30A2476"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:barrel_zombie"
+				id: "2D3C12082D74D783"
+				type: "kill"
+				value: 50L
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7D50D925D29205DB"]
+			id: "62560DD8D70797E0"
+			rewards: [{
+				id: "15237A52E69959FB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:nightmare_stalker"
+				id: "16FE3BBD208C2581"
+				type: "kill"
+				value: 50L
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7D50D925D29205DB"]
+			id: "5F4AA0AA5B1826C5"
+			rewards: [{
+				id: "7CAB22C24BE86F3F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:fallen_chaos_knight"
+				id: "49833847C7C7C613"
+				type: "kill"
+				value: 50L
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7D50D925D29205DB"]
+			id: "3AACBEBA304FEDDF"
+			rewards: [{
+				id: "2DDFD4A7044AA83C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:bonescaller"
+				id: "0637DA615E598E7F"
+				type: "kill"
+				value: 50L
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7D50D925D29205DB"]
+			id: "146DAB7B545E41DB"
+			rewards: [{
+				id: "616CD54C0A1BBF42"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:missioner"
+				id: "14A2937FF873C9C0"
+				type: "kill"
+				value: 50L
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7D50D925D29205DB"]
+			id: "5FB8D7CBCDE734F4"
+			rewards: [{
+				id: "673A333E94407677"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:glutton_fish"
+				id: "154116EE7BD566A0"
+				type: "kill"
+				value: 50L
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7D50D925D29205DB"]
+			id: "2D4EBA82D05B980C"
+			rewards: [{
+				id: "1B49E21FFB830AC4"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:lord_pumpkinhead"
+				id: "08E74B87933AACC5"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["42454F362606934A"]
+			description: [
+				" Послідовники віднайшли спосіб нести свою віру в цьому світі."
+				" Для цього їм знадобиться багато зброї та обладунків."
+				" На щастя для них, їм вдалось зібрати деякі потрібні ресурси."
+				" Але вони просять вас показати їм технології виготовлення зброї та обладунків."
+			]
+			icon: "forbidden_arcanus:corrupt_soul"
+			id: "630AF709EB524971"
+			tasks: [{
+				id: "5882681A213B5546"
+				title: "Таємне та заборонене"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["630AF709EB524971"]
+			description: [
+				" Ви усвідомлюєте, що в таких обладунках виживуть явно не всі послідовники."
+				" Але вам заплатять, а ці культисти не найприємніші люди."
+			]
+			id: "0D00244A9B4F0CD4"
+			rewards: [{
+				id: "7B4947928FFAC74A"
+				item: "forbidden_arcanus:edelwood_bee_bucket"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "36FB8E3346D5B9F6"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:mortem_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "78D6DDA98315D72F"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:mortem_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3C1676A1A2CB620B"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:mortem_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "32A38C902AF42DDA"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:mortem_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Обладунки смерті"
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["630AF709EB524971"]
+			description: [
+				" Обладунки для справжніх генералів."
+				" Наврядчи ці обладунки в руках командирів, взагалі бачитимуть битву."
+			]
+			id: "3EB7244EB49E7365"
+			rewards: [{
+				id: "472B2E8DC79E8823"
+				item: "forbidden_arcanus:stellarite_block"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "06E80278F1EC83A1"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:draco_arcanus_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4FDE647430257C64"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:draco_arcanus_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3245DC1E6A8E647A"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:draco_arcanus_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "66F7ACB824B392DC"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:draco_arcanus_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Обладунки дракона"
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["630AF709EB524971"]
+			description: [
+				" Навіть не знаю чи варто показувати їм цю технологію..."
+				" Це найкращі обладунки, які ви бачили взагалі."
+			]
+			id: "2BFF2A30006260B0"
+			rewards: [{
+				id: "72601ABB24AE60BC"
+				item: "forbidden_arcanus:stellarite_block"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "42EFCAAB40701732"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:tyr_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1E1F82C1CF29E160"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:tyr_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2207B4E7A9588BB2"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:tyr_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "44375BF046FDD1B0"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:tyr_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Обладнуки тюра"
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["630AF709EB524971"]
+			description: [" Навіть не зачаровані, вони вселяють жах у ворогів та захоплення у союзників."]
+			id: "5B90C0C520BACA6D"
+			rewards: [{
+				id: "7D78363870EB1C25"
+				item: "forbidden_arcanus:stellarite_block"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "534B2D8AEE77935B"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:draco_arcanus_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "489830931663E304"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:draco_arcanus_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "198256CE3C48D114"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:draco_arcanus_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3E356898492A7225"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:draco_arcanus_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "66744AF464881428"
+					item: {
+						Count: 1b
+						id: "forbidden_arcanus:draco_arcanus_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Інструменти дракона"
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["42454F362606934A"]
+			description: [
+				" Культисти знайшли спосіб вбивати мобів особливо жорстоко."
+				" З мобів тепер може падати додаткова здобич."
+				" Послідовники не зізнаються де вони знайшли спосіб зачаровувати зброю на \"розрив\", але факт залишається фактом. Це ефективніший спосіб нести свою віру."
+				" У знак вдячності за допомогу, культисти частково показали вам деякі поради, щодо використання додаткової здобичі з мобів."
+			]
+			icon: "reliquary:infernal_claws"
+			id: "52408A6651099C08"
+			tasks: [{
+				id: "2C4DCB5BAF708122"
+				title: "Розрив мобів"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["52408A6651099C08"]
+			id: "34AEFC5E592CFF23"
+			rewards: [{
+				id: "35DCC557BD7F6EE9"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "29279847CAF1DED5"
+					item: "reliquary:emperor_chalice"
+					type: "item"
+				}
+				{
+					id: "36E2945615FD1A97"
+					item: {
+						Count: 1b
+						id: "reliquary:infernal_chalice"
+						tag: {
+							enabled: 0b
+							fluidStacks: 5000
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["52408A6651099C08"]
+			id: "5693914EFE3EFC5B"
+			rewards: [{
+				id: "04432E47D580CE33"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "272567CD6E640044"
+					item: "reliquary:hero_medallion"
+					type: "item"
+				}
+				{
+					id: "52CF63EBF9B28C71"
+					item: "reliquary:fortune_coin"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["52408A6651099C08"]
+			id: "74E9662D53B03BE7"
+			rewards: [{
+				id: "1817E6067937721B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "45238588B25EE6B7"
+					item: "reliquary:phoenix_down"
+					type: "item"
+				}
+				{
+					id: "6EB8EEC379E2CD5E"
+					item: "reliquary:angelic_feather"
+					type: "item"
+				}
+				{
+					id: "4113A89DB07DF359"
+					item: "reliquary:witherless_rose"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["52408A6651099C08"]
+			id: "5C2680A4C408823C"
+			rewards: [{
+				id: "18121AD9F43375D0"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "013E6F9897558BD1"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								Items: [{
+									amount: 0
+									filter: {
+										Count: 1b
+										id: "minecraft:feather"
+									}
+								}]
+							}
+						}
+						id: "reliquary:rending_gale"
+					}
+					type: "item"
+				}
+				{
+					id: "077A8075590D8630"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								Items: [{
+									amount: 0
+									filter: {
+										Count: 1b
+										id: "minecraft:ender_pearl"
+									}
+								}]
+							}
+						}
+						id: "reliquary:ender_staff"
+					}
+					type: "item"
+				}
+				{
+					id: "54FDB79E4CBA8268"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								Items: [{
+									amount: 0
+									filter: {
+										Count: 1b
+										id: "minecraft:bone_meal"
+									}
+								}]
+							}
+						}
+						id: "reliquary:harvest_rod"
+					}
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["66B3A353E7559E39"]
+			id: "32E50A710941426B"
+			rewards: [{
+				count: 32
+				id: "0BD457C2C132543C"
+				item: "create_confectionery:white_chocolate_candy_2"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 64L
+					id: "22CF825793017DB0"
+					item: { Count: 64b, id: "create:shaft" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "62D6106AC7909999"
+					item: { Count: 64b, id: "create:cogwheel" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "69D267A7C4F07012"
+					item: { Count: 64b, id: "create:large_cogwheel" }
+					type: "item"
+				}
+			]
+			x: -13.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["66B3A353E7559E39"]
+			id: "35BD84F0B046B6BD"
+			rewards: [{
+				id: "226CC82A64772D56"
+				item: "create_enchantment_industry:hyper_experience_bottle"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 64L
+					id: "261CCCB29C7119BC"
+					item: { Count: 64b, id: "create:andesite_casing" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "75517B8EAB48CC56"
+					item: { Count: 64b, id: "create:brass_casing" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "759ED98B6EAB3CB8"
+					item: { Count: 64b, id: "create:copper_casing" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "087B9DB710811255"
+					item: { Count: 64b, id: "create:railway_casing" }
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["66B3A353E7559E39"]
+			id: "2862FD92A425AFEF"
+			rewards: [
+				{
+					id: "763A7DD83B6DED73"
+					item: "create_things_and_misc:radar"
+					type: "item"
+				}
+				{
+					id: "627F636074723751"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				count: 64L
+				id: "3053F974A1EC208D"
+				item: { Count: 64b, id: "create:electron_tube" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["66B3A353E7559E39"]
+			id: "159B82BC2A3682BE"
+			rewards: [{
+				count: 16
+				id: "64B0DB5CD56C3EBF"
+				item: "supplementaries:bomb_blue"
+				type: "item"
+			}]
+			tasks: [{
+				id: "67EDFE9D1703F864"
+				item: {
+					Count: 1b
+					id: "create_jetpack:netherite_jetpack"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2020BBAB77FE6FFE"]
+			description: [
+				" Шановні гравці, до вас звертається інженерний відділ компанії \"Ікарус\". Ми прості інженери, але нас змушують знаходити просто неральну кількість ресурсів для побудови лабораторій."
+				" Просимо вас допомогти з ресурсами, інакше нам самим доведеться вештатись в небезпечних місцях.  Ніхто з нас не має бойового досвіду, тому для нас це майже смертний вирок."
+				" В свою чергу допоможемо цікавими розробками."
+			]
+			icon: "create:wrench"
+			id: "66B3A353E7559E39"
+			tasks: [{
+				id: "49BA21A8E1564E84"
+				title: "Інженерний відділ"
+				type: "checkmark"
+			}]
+			x: -10.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["66B3A353E7559E39"]
+			id: "62B3927E2606A443"
+			rewards: [{
+				id: "2EFE1D1C4243E648"
+				item: "alexscaves:raygun"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "66C42A1325E154A0"
+					item: {
+						Count: 4b
+						id: "integrateddynamics:energy_battery"
+						tag: {
+							energy: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "3ADF31B344B707CD"
+					item: { Count: 64b, id: "integrateddynamics:cable" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6212656B4F1D0727"
+					item: { Count: 4b, id: "integrateddynamics:mechanical_squeezer" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2A87DFA1F860349A"
+					item: { Count: 4b, id: "integrateddynamics:mechanical_drying_basin" }
+					type: "item"
+				}
+			]
+			x: -12.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["66B3A353E7559E39"]
+			id: "335B994CC87580F2"
+			rewards: [
+				{
+					id: "02F9A51D501C9F4A"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+				{
+					id: "63AE6AA335E29A66"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					id: "6D65BEB803B9A31F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "2310AD84B62A2DD1"
+				item: { Count: 4b, id: "create_mechanical_extruder:mechanical_extruder" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["66B3A353E7559E39"]
+			id: "7FCB5761C5BA30AC"
+			rewards: [{
+				count: 64
+				id: "745BF078EE9712DD"
+				item: "alexscaves:magnetic_levitation_rail"
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "037D001995111935"
+				item: { Count: 64b, id: "prettypipes:pipe" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: -7.0d
+		}
+	]
+	title: "Де я?"
+}

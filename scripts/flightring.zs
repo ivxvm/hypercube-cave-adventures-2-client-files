@@ -1,0 +1,10 @@
+craftingTable.remove(<item:balancedflight:ascended_flight_ring>);
+craftingTable.addShaped("ascended_flight_ring", <item:balancedflight:ascended_flight_ring>, [
+	[<item:minecraft:air>, <item:forbidden_arcanus:deorum_block>, <item:forbidden_arcanus:deorum_block>, <item:forbidden_arcanus:deorum_block>, <item:forbidden_arcanus:deorum_block>, <item:forbidden_arcanus:deorum_block>, <item:minecraft:air>], 
+	[<item:forbidden_arcanus:deorum_block>, <item:forbidden_arcanus:deorum_block>, <item:minecraft:netherite_ingot>, <item:minecraft:nether_star>, <item:minecraft:netherite_ingot>, <item:forbidden_arcanus:deorum_block>, <item:forbidden_arcanus:deorum_block>], 
+	[<item:forbidden_arcanus:deorum_block>, <item:minecraft:netherite_ingot>, <item:reliquary:phoenix_down>, <item:create:chromatic_compound>, <item:reliquary:phoenix_down>, <item:minecraft:netherite_ingot>, <item:forbidden_arcanus:deorum_block>], 
+	[<item:forbidden_arcanus:deorum_block>, <item:minecraft:nether_star>, <item:forbidden_arcanus:edelwood_allay_bucket>, <item:alexsmobs:tarantula_hawk_elytra>.withTag({Damage: 0 as int}), <item:forbidden_arcanus:edelwood_bat_bucket>, <item:minecraft:nether_star>, <item:forbidden_arcanus:deorum_block>], 
+	[<item:forbidden_arcanus:deorum_block>, <item:minecraft:netherite_ingot>, <item:reliquary:phoenix_down>, <item:create_sa:brass_jetpack_chestplate>.withTag({Damage: 0 as int}), <item:reliquary:phoenix_down>, <item:minecraft:netherite_ingot>, <item:forbidden_arcanus:deorum_block>], 
+	[<item:forbidden_arcanus:deorum_block>, <item:forbidden_arcanus:deorum_block>, <item:minecraft:netherite_ingot>, <item:minecraft:nether_star>, <item:minecraft:netherite_ingot>, <item:forbidden_arcanus:deorum_block>, <item:forbidden_arcanus:deorum_block>], 
+	[<item:minecraft:air>, <item:forbidden_arcanus:deorum_block>, <item:forbidden_arcanus:deorum_block>, <item:forbidden_arcanus:deorum_block>, <item:forbidden_arcanus:deorum_block>, <item:forbidden_arcanus:deorum_block>, <item:minecraft:air>]
+],null);

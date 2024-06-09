@@ -1,0 +1,1110 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3CC1236BE3DA5886"
+	group: ""
+	icon: "create:wrench"
+	id: "3CC1236BE3DA5886"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "208C08583F96FCD4"
+			rewards: [{
+				count: 8
+				id: "7EC3830774804572"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			subtitle: "Перестаньте нехтувати андезитом, блукаючи печерами. Краще поєднайте його з залізом або цинком, щоб почати щось справді велике."
+			tasks: [{
+				count: 8L
+				id: "4BE1697B98E913F2"
+				item: { Count: 8b, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			title: "Андезит всьому голова"
+			x: -1.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["208C08583F96FCD4"]
+			id: "2A96FA2A0226580A"
+			rewards: [{
+				count: 8
+				id: "4124D4C2F403BFB1"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			subtitle: "Одного лише андезиту мало для становлення інженера. Поєднайте його з деревом"
+			tasks: [{
+				count: 8L
+				id: "548BAD0F6C88FB89"
+				item: { Count: 8b, id: "create:andesite_casing" }
+				type: "item"
+			}]
+			title: "Трохи столярного ремесла"
+			x: -1.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["2A96FA2A0226580A"]
+			id: "7C4A91E66A3F4398"
+			rewards: [
+				{
+					count: 8
+					id: "63B9DAF8DE122A8B"
+					item: "create:gearbox"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "39F6C126791FA2FC"
+					item: "create:shaft"
+					type: "item"
+				}
+			]
+			subtitle: "Всі з цього починали."
+			tasks: [
+				{
+					id: "0FA2C05E995AE1DA"
+					item: "create:windmill_bearing"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6BE58958B9CB269E"
+					item: { Count: 8b, id: "create:white_sail" }
+					type: "item"
+				}
+				{
+					id: "40F6E3AF4D1AC999"
+					item: "create:water_wheel"
+					type: "item"
+				}
+				{
+					id: "74E6E606705F9AD6"
+					item: "create:large_water_wheel"
+					type: "item"
+				}
+			]
+			title: "Базові оберти"
+			x: -1.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["7C4A91E66A3F4398"]
+			id: "5B6B8334C7379990"
+			rewards: [
+				{
+					id: "2B709156543711A0"
+					item: "create:wrench"
+					type: "item"
+				}
+				{
+					id: "1DECD3DDEA245D38"
+					item: "create:goggles"
+					type: "item"
+				}
+				{
+					id: "06E7405D4EC3A727"
+					item: "create:white_toolbox"
+					type: "item"
+				}
+			]
+			subtitle: "\"боньк\" - каже прес. #%$* - каже необережний інженер."
+			tasks: [
+				{
+					id: "6ADFF1ACF2417E38"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4FEFF69DD27454EC"
+					item: { Count: 4b, id: "create:iron_sheet" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2B479FAB4A502439"
+					item: { Count: 4b, id: "create:golden_sheet" }
+					type: "item"
+				}
+			]
+			title: "Бережіть пальці!"
+			x: -1.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5B6B8334C7379990"]
+			id: "23598911690B4F89"
+			rewards: [{
+				count: 8
+				id: "441FB4F4BF0DC166"
+				item: "create:item_vault"
+				type: "item"
+			}]
+			subtitle: "Ви сюди наймались інженером, а не вантажником. Здоров'я вам ще знадобиться."
+			tasks: [
+				{
+					id: "11404532A0540F6D"
+					item: "create:belt_connector"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5560C03DFB41C249"
+					item: { Count: 4b, id: "create:chute" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "576C61E103F58105"
+					item: { Count: 2b, id: "create:andesite_funnel" }
+					type: "item"
+				}
+			]
+			title: "Автоматична логістика"
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["23598911690B4F89"]
+			id: "04A14A63D3A4584A"
+			rewards: [{
+				count: 64
+				id: "641C478E84D04F00"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			subtitle: "Потенційний руйнівник світів."
+			tasks: [{
+				id: "4F6D39CA80CB6B18"
+				item: "create:mechanical_drill"
+				type: "item"
+			}]
+			title: "Го в шахту!"
+			x: -3.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["23598911690B4F89"]
+			id: "1BFA595D9C591114"
+			rewards: [
+				{
+					id: "786BBAF55DE63677"
+					item: "create:mechanical_bearing"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "1910A6FCFDF66FB9"
+					item: "create:linear_chassis"
+					type: "item"
+				}
+			]
+			subtitle: "Стережіться дріад!"
+			tasks: [{
+				id: "62B036D589644AB4"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			title: "\"Санітарна чистка лісів\""
+			x: -5.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["23598911690B4F89"]
+			id: "5E28935ABE1686A3"
+			rewards: [
+				{
+					id: "24A25151AFF9F693"
+					item: "create:mechanical_bearing"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "6B2CE2C14D1A930A"
+					item: "create:linear_chassis"
+					type: "item"
+				}
+			]
+			subtitle: "Скільки можна побиратись по селах? Майте совість врешті решт."
+			tasks: [{
+				id: "4EA7FF67AA67BD0D"
+				item: "create:mechanical_harvester"
+				type: "item"
+			}]
+			title: "Ммм...їжа"
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["23598911690B4F89"]
+			id: "445BB18880755AF9"
+			rewards: [
+				{
+					id: "2460A8B47E536FDB"
+					item: "create:mechanical_bearing"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "43CD6D547D4FE88D"
+					item: "create:linear_chassis"
+					type: "item"
+				}
+			]
+			subtitle: "Мамо, зліпи мені сніжку..."
+			tasks: [{
+				id: "23AD34EAFD7886EA"
+				item: "create:mechanical_plough"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["23598911690B4F89"]
+			id: "088241C35876ADF6"
+			rewards: [{
+				count: 16
+				id: "24F9CCF15A50E401"
+				item: "farmersdelight:bacon_sandwich"
+				type: "item"
+			}]
+			subtitle: "Розділяй і володарюй - мудре правило, але об'єднуй і спрямовуй - ще краще."
+			tasks: [{
+				id: "4305C57391A29F87"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["23598911690B4F89"]
+			id: "0227B4E5093D15DF"
+			rewards: [
+				{
+					count: 8
+					id: "4CA74F8E737DAE69"
+					item: "minecraft:sea_pickle"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "5C38346A212A2A0E"
+					item: "minecraft:wheat"
+					type: "item"
+				}
+			]
+			subtitle: "Перша приватна пекарня"
+			tasks: [{
+				id: "0CA2480056075536"
+				item: "create:millstone"
+				type: "item"
+			}]
+			title: "Молотилка"
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["23598911690B4F89"]
+			id: "2D0A89D2F9008269"
+			rewards: [
+				{
+					count: 32
+					id: "00A927E3783C0C37"
+					item: "minecraft:clay"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "07FA2275B32EADFD"
+					item: "minecraft:soul_sand"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "50CD195899919F8A"
+					item: "minecraft:sand"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "01A15D4F760BD8A1"
+					item: "minecraft:dried_kelp"
+					type: "item"
+				}
+			]
+			subtitle: "Магія води, магія лави, магія переслідування та магія копчення"
+			tasks: [
+				{
+					id: "2A0BA89C4620C911"
+					item: "minecraft:campfire"
+					type: "item"
+				}
+				{
+					id: "3DFA7DC618310E71"
+					item: "minecraft:soul_campfire"
+					type: "item"
+				}
+				{
+					id: "2212EE9767BD24D4"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					id: "333768F48A9E1EB4"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+				{
+					id: "7F4CFC15769E002D"
+					item: "create:encased_fan"
+					type: "item"
+				}
+			]
+			title: "Майже як аватар"
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7C4A91E66A3F4398"]
+			id: "2A650911F4C353AE"
+			rewards: [
+				{
+					count: 16
+					id: "355E4D36FCBACB25"
+					item: "farmersdelight:squid_ink_pasta"
+					type: "item"
+				}
+				{
+					id: "0B5BD3C5B62F0E99"
+					item: "create:speedometer"
+					type: "item"
+				}
+				{
+					id: "10EE596BD248A5EC"
+					item: "create:stressometer"
+					type: "item"
+				}
+			]
+			subtitle: "Повільно -> швидко і навпаки"
+			tasks: [
+				{
+					id: "417C28F600C85514"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "32B8E95F66E577D6"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+			]
+			title: "Регулювання швидкостей"
+			x: 0.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["23598911690B4F89"]
+			id: "05B0CECB279E9E1D"
+			rewards: [{
+				count: 16
+				id: "11A4533D2F62C21E"
+				item: "farmersdelight:organic_compost"
+				type: "item"
+			}]
+			subtitle: "Робить чик-чик-чик. Правила поводження такі ж як і з пресом"
+			tasks: [{
+				id: "05CA18EEA2870AFA"
+				item: "sliceanddice:slicer"
+				type: "item"
+			}]
+			title: "Незамінний на кухні"
+			x: 0.5d
+			y: -7.5d
+		}
+		{
+			id: "27F0624DF1CDA26B"
+			rewards: [{
+				count: 64
+				id: "16FC1C8E5216DF8E"
+				item: "minecraft:stripped_oak_log"
+				type: "item"
+			}]
+			subtitle: "компас допоможе знайти \"андезитові печери\""
+			tasks: [
+				{
+					biome: "terralith:cave/andesite_caves"
+					icon: "minecraft:andesite"
+					id: "5456B222CDCE1147"
+					type: "biome"
+				}
+				{
+					id: "56E59EB2FF586BD0"
+					item: {
+						Count: 1b
+						id: "naturescompass:naturescompass"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Просто КУПА андезиту"
+			x: -5.0d
+			y: -12.5d
+		}
+		{
+			id: "09B8FB544365EAAF"
+			rewards: [
+				{
+					count: 4
+					id: "6C9339E8BEA42687"
+					item: "create:mechanical_drill"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4D83B6081D3E661C"
+					item: "create:mechanical_saw"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "65F3E3CDE1760A60"
+					item: "create:mechanical_plough"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2D492B4420928C1F"
+					item: "create:mechanical_harvester"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1D5CA7B9D63FF5A2"
+					item: "create:deployer"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "3F087EE8E70F9C75"
+					item: "create:item_vault"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "75B153751EBDEA0F"
+					item: "create:portable_storage_interface"
+					type: "item"
+				}
+			]
+			subtitle: "Вагонеткові пристосування надають широкий спектр послуг з автоматизації більшості create-процесів"
+			tasks: [
+				{
+					id: "1FDCFC5562DBACE8"
+					item: "create:cart_assembler"
+					type: "item"
+				}
+				{
+					id: "0B5FCC7FE0E036D9"
+					item: "minecraft:lever"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "101C96FC3C5B5249"
+					item: { Count: 16b, id: "minecraft:rail" }
+					type: "item"
+				}
+				{
+					id: "4C6FCA2760C9F9FB"
+					item: "minecraft:furnace_minecart"
+					type: "item"
+				}
+				{
+					id: "7B9D93B9C1EB6BF6"
+					item: {
+						Count: 1b
+						id: "create:super_glue"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -14.5d
+		}
+		{
+			id: "4E16DF734C74D126"
+			rewards: [{
+				count: 64
+				id: "20071D33E7A9583A"
+				item: "create:veridium"
+				type: "item"
+			}]
+			subtitle: "Також працюємо з рідинами"
+			tasks: [{
+				count: 8L
+				id: "26253D26FB62CAD4"
+				item: { Count: 8b, id: "minecraft:copper_ingot" }
+				type: "item"
+			}]
+			title: "Мідь - для рідин"
+			x: 9.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["4E16DF734C74D126"]
+			id: "498E1384CEEE615B"
+			rewards: [{
+				count: 16
+				id: "49C7398D5AEC5D4A"
+				item: "farmersdelight:baked_cod_stew"
+				type: "item"
+			}]
+			subtitle: "Найкраща генерація обертів, після творчого двигуна звісно"
+			tasks: [
+				{
+					id: "730EF0BE52905E03"
+					item: "create:steam_engine"
+					type: "item"
+				}
+				{
+					id: "097C4D7B1878ED3D"
+					item: "create:fluid_tank"
+					type: "item"
+				}
+				{
+					id: "4B3020A9664EBEBB"
+					item: "create:mechanical_pump"
+					type: "item"
+				}
+				{
+					id: "4D4A395FE1D37BCC"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "47947F90A89682CE"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+				{
+					id: "07E3FBBBCDEBD420"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["4E16DF734C74D126"]
+			id: "12823383E14104C9"
+			rewards: [{
+				id: "3D2BDBDDD5DA323C"
+				item: "alexsmobs:platypus_bucket"
+				type: "item"
+			}]
+			subtitle: "Можуть не тільки зливати рідини, а і замінити конвеєри"
+			tasks: [{
+				id: "4C74EB8C802EA6BE"
+				item: "create:item_drain"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["4E16DF734C74D126"]
+			id: "07C6BD6B8A8BA9CF"
+			rewards: [{
+				count: 64
+				id: "39A0035953296A4B"
+				item: "create:veridium"
+				type: "item"
+			}]
+			subtitle: "Вже знайома техніка обробки деревини."
+			tasks: [{
+				count: 8L
+				id: "0BB0DB53323B08C0"
+				item: { Count: 8b, id: "create:copper_casing" }
+				type: "item"
+			}]
+			title: "Мідний корпус"
+			x: 11.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["4E16DF734C74D126"]
+			id: "2E29FCDF2B5C17DF"
+			rewards: [{
+				count: 64
+				id: "3BBA7EB2318E2670"
+				item: "create:veridium"
+				type: "item"
+			}]
+			subtitle: "Дозатор - герметичне пристосування, тому наповнюється тільки трубами"
+			tasks: [
+				{
+					id: "4ECE701708814AFC"
+					item: "create:spout"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "052855BAB38669B8"
+					item: { Count: 8b, id: "create:fluid_tank" }
+					type: "item"
+				}
+			]
+			title: "Наливайка"
+			x: 9.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["4E16DF734C74D126"]
+			id: "2FA6C32578E29C3B"
+			rewards: [{
+				count: 64
+				id: "47603EE1E5BBFE2E"
+				item: "create:veridium"
+				type: "item"
+			}]
+			subtitle: "А ви знали, що помпи можуть качати рідини на 15 блоків?"
+			tasks: [
+				{
+					count: 15L
+					id: "75256E3C4B63F577"
+					item: { Count: 15b, id: "create:fluid_pipe" }
+					type: "item"
+				}
+				{
+					id: "30C65C648E83591B"
+					item: "create:mechanical_pump"
+					type: "item"
+				}
+			]
+			title: "В руках таке не понесеш"
+			x: 7.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["4E16DF734C74D126"]
+			id: "2A71C903E0CF4875"
+			rewards: [{
+				id: "67D5005FF4181112"
+				item: "create:hand_crank"
+				type: "item"
+			}]
+			subtitle: "А ви знали що джерело рідини об'ємом більше 10 000 блоків, вважається нескінченним?"
+			tasks: [{
+				id: "1A5CF326EC39B7BD"
+				item: "create:hose_pulley"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -13.5d
+		}
+		{
+			icon: "create:brass_nugget"
+			id: "416E4C3D75F7515F"
+			rewards: [
+				{
+					count: 64
+					id: "3D668D6B5478FB90"
+					item: "create:veridium"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "2FD0AAAB6892D2ED"
+					item: "create:asurine"
+					type: "item"
+				}
+			]
+			subtitle: "Ви робите успіхи!"
+			tasks: [
+				{
+					count: 8L
+					id: "32C94671D0B2C43E"
+					item: { Count: 8b, id: "minecraft:copper_ingot" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1F4B7D8A72FB264E"
+					item: { Count: 8b, id: "create:zinc_ingot" }
+					type: "item"
+				}
+			]
+			title: "Латунна епоха"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["416E4C3D75F7515F"]
+			id: "3F9BB1C6CF661FDE"
+			rewards: [
+				{
+					count: 64
+					id: "50B25CB4D5FB37C9"
+					item: "create:crushed_raw_iron"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "19BD23D0C2ACB5D5"
+					item: "create:rose_quartz"
+					type: "item"
+				}
+			]
+			subtitle: "Поєднання кварцу та редстоуну дає щось технічніше, ніж все до того"
+			tasks: [{
+				count: 4L
+				id: "27CDDF3BAA810978"
+				item: "create:polished_rose_quartz"
+				type: "item"
+			}]
+			title: "Полірований кварц"
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3F9BB1C6CF661FDE"]
+			id: "17C3A83CA86FD2AC"
+			rewards: [{
+				count: 4
+				id: "75DD6F53A021BE18"
+				item: "create:filter"
+				type: "item"
+			}]
+			subtitle: "Більше предметів за раз та усілякі фільтри"
+			tasks: [
+				{
+					id: "560508D83B4465C3"
+					item: "create:smart_chute"
+					type: "item"
+				}
+				{
+					id: "7FDE51A1F891AD12"
+					item: "create:brass_funnel"
+					type: "item"
+				}
+			]
+			title: "Ефективніша логістика"
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3F9BB1C6CF661FDE"]
+			id: "36A86676069A0997"
+			rewards: [
+				{
+					id: "788B8B19AADD08DB"
+					item: "quark:crafter"
+					type: "item"
+				}
+				{
+					id: "0BEF54BF0F4B10A3"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "25BB2F0B6B6BBA60"
+					item: "quark:monster_box"
+					type: "item"
+				}
+			]
+			subtitle: "На це можна дивитись вічно"
+			tasks: [{
+				id: "5DCCE6B5FA710F19"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["36A86676069A0997"]
+			id: "22C70BFA947D5B33"
+			rewards: [
+				{
+					count: 64
+					id: "33AF4232AFB31FAE"
+					item: "create:crushed_raw_iron"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1528F35D0445B5A3"
+					item: "create:crushed_raw_gold"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3C6F3281F9FD6DEB"
+					item: "create:crushed_raw_copper"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "167F95D369A0E090"
+					item: "create:crushed_raw_zinc"
+					type: "item"
+				}
+			]
+			subtitle: "Правила поводження: не залазити в колеса під час роботи"
+			tasks: [{
+				count: 2L
+				id: "4F499B0BFCB83014"
+				item: { Count: 2b, id: "create:crushing_wheel" }
+				type: "item"
+			}]
+			title: "Дробарка"
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["416E4C3D75F7515F"]
+			id: "7EDD3E7C04C628DE"
+			rewards: [
+				{
+					count: 32
+					id: "24A23852820C7D6F"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					id: "0478B1EF85632AB7"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					id: "1A370B37C360FAA2"
+					item: "createaddition:straw"
+					type: "item"
+				}
+			]
+			subtitle: "Вхопіть блейза прямо за бороду або ж знайдіть його розсадник"
+			tasks: [{
+				id: "72BAA74C425A5C78"
+				item: "create:empty_blaze_burner"
+				type: "item"
+			}]
+			title: "Додайте жару"
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7EDD3E7C04C628DE"]
+			id: "14D0AFDFE3EB2FD2"
+			rewards: [{
+				count: 64
+				id: "0504B75CC36EA4D7"
+				item: "farmersdelight:kelp_roll"
+				type: "item"
+			}]
+			subtitle: "Робимо успіхи та сплави"
+			tasks: [{
+				count: 8L
+				id: "1ADD617151019438"
+				item: { Count: 8b, id: "create:brass_ingot" }
+				type: "item"
+			}]
+			title: "Латунь"
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["14D0AFDFE3EB2FD2"]
+			id: "44310EAF7CF618F0"
+			rewards: [{
+				id: "46F164A5F43EB174"
+				item: "create:white_toolbox"
+				type: "item"
+			}]
+			subtitle: "Робить 2 речі: б'є або клікає пкм замість вас (залежить від темпераменту)"
+			tasks: [{
+				id: "46F1DFCE47D1182F"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["14D0AFDFE3EB2FD2"]
+			id: "65324852326080BC"
+			rewards: [{
+				count: 8
+				id: "2D508D03850CFDBA"
+				item: "create:brass_sheet"
+				type: "item"
+			}]
+			subtitle: "Просто вказуєш звідки брати і куди класти та насолоджуєшся"
+			tasks: [{
+				id: "0CEDEE552CCCE48C"
+				item: "create:mechanical_arm"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"65324852326080BC"
+				"44310EAF7CF618F0"
+			]
+			id: "42264F7762863804"
+			rewards: [{
+				count: 4
+				id: "782B1EE0A7FE162F"
+				item: "alexscaves:telecore"
+				type: "item"
+			}]
+			subtitle: "Ви з телеторами станете найкращими друзями :D"
+			tasks: [{
+				id: "3A568BA60137C206"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			id: "517CB1272787E678"
+			rewards: [{
+				count: 8
+				id: "3EF39D5A4C8624A8"
+				item: "create:sturdy_sheet"
+				type: "item"
+			}]
+			subtitle: "Наповніть обсидіан лавою"
+			tasks: [{
+				id: "0C006BF540DEB8E5"
+				item: "create:sturdy_sheet"
+				type: "item"
+			}]
+			title: "Міцний лист"
+			x: 9.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["517CB1272787E678"]
+			id: "482A08CE1F834905"
+			rewards: [{
+				count: 4
+				id: "19A4536F35443C0F"
+				item: "create:railway_casing"
+				type: "item"
+			}]
+			subtitle: "Основа потягу"
+			tasks: [{
+				id: "481E5D8A386A9123"
+				item: "create:railway_casing"
+				type: "item"
+			}]
+			title: "Корпус потягу"
+			x: 9.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["482A08CE1F834905"]
+			id: "2ECC8F0EC167536A"
+			rewards: [
+				{
+					id: "3FBD74B263B054BA"
+					item: "create:display_link"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "506C9734278D0C6A"
+					item: "create:display_board"
+					type: "item"
+				}
+				{
+					id: "5BB7077675479198"
+					item: "create:track_station"
+					type: "item"
+				}
+			]
+			subtitle: "Рейки, рейки, шпали, шпали"
+			tasks: [{
+				id: "4616C324F042AAD1"
+				item: "create:track"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["482A08CE1F834905"]
+			id: "669FB88C277B7A42"
+			rewards: [
+				{
+					id: "0803B7BA7E3BCD88"
+					item: "create:schedule"
+					type: "item"
+				}
+				{
+					id: "29D383A2DD058B2A"
+					item: "create:track_station"
+					type: "item"
+				}
+				{
+					id: "066AA7B6DD29C1B9"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+			]
+			subtitle: "Зберіть потяг, складіть розклад і дайте його машиністу"
+			tasks: [
+				{
+					id: "297E51A581FDB97F"
+					item: "create:track_station"
+					type: "item"
+				}
+				{
+					id: "137C5DEEFE42986D"
+					item: "create:railway_casing"
+					type: "item"
+				}
+				{
+					id: "2475E7C8ADB61E6E"
+					item: {
+						Count: 1b
+						id: "create:super_glue"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4AAC3AA627CD59C7"
+					item: "create:controls"
+					type: "item"
+				}
+				{
+					id: "3018EE92092B023D"
+					item: "create:white_seat"
+					type: "item"
+				}
+			]
+			title: "Проїзд - 12 гривень"
+			x: 8.5d
+			y: -1.5d
+		}
+	]
+	title: "Create"
+}

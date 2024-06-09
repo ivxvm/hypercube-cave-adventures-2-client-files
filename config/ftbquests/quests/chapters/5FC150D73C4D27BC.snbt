@@ -1,0 +1,830 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5FC150D73C4D27BC"
+	group: ""
+	icon: "create:chocolate_glazed_berries"
+	id: "5FC150D73C4D27BC"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "kubejs:textures/ftb/2024-05-13_18.00.39.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -7.5d
+			y: -6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "kubejs:textures/ftb/2024-05-13_18.00.49.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "kubejs:textures/ftb/2024-05-13_18.03.45.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -15.5d
+			y: -3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "kubejs:textures/ftb/2024-05-13_18.03.56.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "kubejs:textures/ftb/2024-05-13_18.04.05.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "kubejs:textures/ftb/2024-05-13_18.04.15.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -7.5d
+			y: 6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "kubejs:textures/ftb/2024-05-13_18.04.22.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -7.5d
+			y: 9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "kubejs:textures/ftb/2024-05-13_18.21.09.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -7.5d
+			y: 12.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "kubejs:textures/ftb/2024-05-13_18.04.41.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: -14.0d
+			y: 12.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "kubejs:textures/ftb/2024-05-13_19.04.34.png"
+			rotation: 0.0d
+			width: 5.25d
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "kubejs:textures/ftb/2024-05-13_19.09.47.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 8.5d
+			y: -6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "kubejs:textures/ftb/2024-05-13_18.21.09.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 8.5d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "kubejs:textures/ftb/2024-05-13_18.04.41.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "kubejs:textures/ftb/2024-05-13_19.00.20.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 16.5d
+			y: -6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "kubejs:textures/ftb/2024-05-13_19.00.23.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 16.5d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "kubejs:textures/ftb/2024-05-13_19.00.25.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "kubejs:textures/ftb/2024-05-13_19.00.30.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 16.5d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "kubejs:textures/ftb/2024-05-13_19.00.33.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 16.5d
+			y: 6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "kubejs:textures/ftb/2024-05-13_18.04.22.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 16.5d
+			y: 9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "kubejs:textures/ftb/2024-05-13_18.21.09.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 16.5d
+			y: 12.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "kubejs:textures/ftb/2024-05-13_18.04.41.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 16.5d
+			y: 15.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "minecraft:item/iron_ingot"
+			rotation: 0.0d
+			width: 2.0d
+			x: 8.5d
+			y: -9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "minecraft:item/gold_ingot"
+			rotation: 0.0d
+			width: 2.0d
+			x: 16.5d
+			y: -8.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/iron_ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: -8.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/gold_ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -8.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/copper_ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.5d
+			y: -9.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "create:item/zinc_ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -9.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "createaddition:item/electrum_ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: -8.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/lava_bucket"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "createdeco:block/palettes/decals/decal_up"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.5d
+			y: -4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "createdeco:block/palettes/decals/decal_up"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: -4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "createdeco:block/palettes/decals/decal_up"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "createdeco:block/palettes/decals/decal_up"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.5d
+			y: -1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "createdeco:block/palettes/decals/decal_up"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.5d
+			y: 1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "createdeco:block/palettes/decals/decal_up"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.5d
+			y: 4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "createdeco:block/palettes/decals/decal_up"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.5d
+			y: 7.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "createdeco:block/palettes/decals/decal_up"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.5d
+			y: 10.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "createdeco:block/palettes/decals/decal_up"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.5d
+			y: 13.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "createdeco:block/palettes/decals/decal_up"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: -4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "createdeco:block/palettes/decals/decal_left"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "createdeco:block/palettes/decals/decal_up"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "createdeco:block/palettes/decals/decal_up"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "createdeco:block/palettes/decals/decal_up"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: 4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "createdeco:block/palettes/decals/decal_up"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: 7.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "createdeco:block/palettes/decals/decal_up"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: 10.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "createdeco:block/palettes/decals/decal_right"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: 12.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "createdeco:block/palettes/decals/decal_up"
+			rotation: 0.0d
+			width: 1.0d
+			x: -16.0d
+			y: 10.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "createdeco:block/palettes/decals/decal_up"
+			rotation: 0.0d
+			width: 1.0d
+			x: -16.0d
+			y: 8.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "createdeco:block/palettes/decals/decal_up"
+			rotation: 0.0d
+			width: 1.0d
+			x: -16.0d
+			y: 7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "createdeco:block/palettes/decals/decal_up"
+			rotation: 0.0d
+			width: 1.0d
+			x: -16.0d
+			y: 5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "createdeco:block/palettes/decals/decal_up"
+			rotation: 0.0d
+			width: 1.0d
+			x: -16.0d
+			y: 4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "createdeco:block/palettes/decals/decal_up"
+			rotation: 0.0d
+			width: 1.0d
+			x: -16.0d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "createdeco:block/palettes/decals/decal_up"
+			rotation: 0.0d
+			width: 1.0d
+			x: -16.0d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "createdeco:block/palettes/decals/decal_up"
+			rotation: 0.0d
+			width: 1.0d
+			x: -16.0d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "createdeco:block/palettes/decals/decal_right"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.0d
+			y: -3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "createdeco:block/palettes/decals/decal_right"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.5d
+			y: -3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "createdeco:block/palettes/decals/decal_right"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.0d
+			y: -3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "createdeco:block/palettes/decals/decal_up"
+			rotation: 0.0d
+			width: 1.0d
+			x: -16.0d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "createdeco:block/palettes/decals/decal_up"
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: 10.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "createdeco:block/palettes/decals/decal_up"
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: 8.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "createdeco:block/palettes/decals/decal_up"
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: 7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "createdeco:block/palettes/decals/decal_up"
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: 5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "createdeco:block/palettes/decals/decal_up"
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: 4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "createdeco:block/palettes/decals/decal_up"
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "createdeco:block/palettes/decals/decal_up"
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "createdeco:block/palettes/decals/decal_right"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "createdeco:block/palettes/decals/decal_right"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.0d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "createdeco:block/palettes/decals/decal_right"
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: -0.5d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+	title: "Ферми"
+}
