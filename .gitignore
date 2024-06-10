@@ -1,0 +1,13 @@
+assets/indexes/
+assets/objects/
+assets/log_configs/
+cachedImages/
+local/
+runtime/
+versions/
+libraries/
+logs/
+modernfix/
+saves/
+screenshots/
+simplebackups/
