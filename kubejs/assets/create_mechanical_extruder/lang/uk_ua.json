@@ -1,0 +1,11 @@
+{
+  "block.create_mechanical_extruder.mechanical_extruder": "Механічний екструдер",
+  "create.create_mechanical_extruder.goggles.bonks": "%1$s бум",
+  "create.recipe.extruding": "Рецепт екструдування",
+  "create_mechanical_extruder.ponder.extruder.header": "Генерування блоків",
+  "create_mechanical_extruder.ponder.extruder.text_1": "Екструдер використовує силу обертання для створення блоків",
+  "create_mechanical_extruder.ponder.extruder.text_2": "Тип згенерованих блоків залежить від бічних та нижніх блоків.",
+  "create_mechanical_extruder.ponder.extruder.text_3": "Коли процес буде завершено, результат можна отримати, клацнувши правою кнопкою миші",
+  "create_mechanical_extruder.ponder.extruder.text_4": "Вихідні предмети також можуть бути отримані за допомогою автоматизації",
+  "itemGroup.create_mechanical_extruder:main": ""
+}

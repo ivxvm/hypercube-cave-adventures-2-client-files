@@ -1,0 +1,14 @@
+{
+  "balancedflight.ponder.flight_anchor.header": "Політ завдяки обертальній силі",
+  "balancedflight.ponder.flight_anchor.text_1": "Для роботи якоря польоту потрібна величезна кількість енергії.",
+  "balancedflight.ponder.flight_anchor.text_2": "За кожне число обертів ви зможете літати на один блок далі навколо якоря.",
+  "balancedflight.ponder.flight_anchor.text_3": "Вищі швидкості охоплюють значно більшу площу поверхні.",
+  "balancedflight.ponder.tag.flight_anchor": "Якір польоту",
+  "balancedflight.ponder.tag.flight_anchor.description": "Політ завдяки обертальній силі",
+  "block.balancedflight.flight_anchor": "Якір польоту",
+  "curios.identifier.flight_ring": "Кільце польоту",
+  "item.balancedflight.ascended_flight_ring": "Вознесене кільце польоту",
+  "itemGroup.balancedflight.base": "Create: Збалансований політ",
+  "tooltip.balancedflight.ascended_flight_ring": "Неймовірно коштовне кільце, і все ж, воно дозволяє летіти куди завгодно.",
+  "tooltip.balancedflight.flight_anchor": "Дозволяє літати в радіусі 25 блоків. Працює тільки у верхньому світі."
+}
