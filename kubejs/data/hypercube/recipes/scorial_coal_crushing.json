@@ -1,0 +1,20 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "droid_create_diamond_recipe:scorial_coal_block"
+    }
+  ],
+  "results": [
+    {
+      "item": "droid_create_diamond_recipe:scorial_coal",
+      "count": 1
+    },
+    {
+      "item": "droid_create_diamond_recipe:scorial_coal",
+      "count": 1,
+      "chance": 0.25
+    }
+  ],
+  "processingTime": 100
+}

@@ -1,0 +1,123 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "droid_create_diamond_recipe:heated_lava_coal_block"
+  },
+  "transitionalItem": {
+    "item": "droid_create_diamond_recipe:unprocessed_lava_coal_block"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "droid_create_diamond_recipe:unprocessed_lava_coal_block"
+        },
+        {
+          "item": "minecraft:magma_block"
+        }
+      ],
+      "results": [
+        {
+          "item": "droid_create_diamond_recipe:unprocessed_lava_coal_block"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "droid_create_diamond_recipe:unprocessed_lava_coal_block"
+        },
+        {
+          "fluid": "minecraft:lava",
+          "amount": 100
+        }
+      ],
+      "results": [
+        {
+          "item": "droid_create_diamond_recipe:unprocessed_lava_coal_block"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "droid_create_diamond_recipe:unprocessed_lava_coal_block"
+        },
+        {
+          "item": "minecraft:blackstone"
+        }
+      ],
+      "results": [
+        {
+          "item": "droid_create_diamond_recipe:unprocessed_lava_coal_block"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "droid_create_diamond_recipe:unprocessed_lava_coal_block"
+        },
+        {
+          "item": "minecraft:basalt"
+        }
+      ],
+      "results": [
+        {
+          "item": "droid_create_diamond_recipe:unprocessed_lava_coal_block"
+        }
+      ]
+    },
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "droid_create_diamond_recipe:unprocessed_lava_coal_block"
+        }
+      ],
+      "results": [
+        {
+          "item": "droid_create_diamond_recipe:unprocessed_lava_coal_block"
+        }
+      ],
+      "processingTime": 50
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "droid_create_diamond_recipe:unprocessed_lava_coal_block"
+        }
+      ],
+      "results": [
+        {
+          "item": "droid_create_diamond_recipe:unprocessed_lava_coal_block"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "droid_create_diamond_recipe:unprocessed_lava_coal_block"
+        }
+      ],
+      "results": [
+        {
+          "item": "droid_create_diamond_recipe:unprocessed_lava_coal_block"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "droid_create_diamond_recipe:compressed_lava_coal_block",
+      "count": 1
+    }
+  ],
+  "loops": 1
+}

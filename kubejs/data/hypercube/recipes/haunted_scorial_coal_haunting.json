@@ -1,0 +1,13 @@
+{
+  "type": "create:haunting",
+  "ingredients": [
+    {
+      "item": "droid_create_diamond_recipe:scorial_coal"
+    }
+  ],
+  "results": [
+    {
+      "item": "droid_create_diamond_recipe:haunted_scorial_coal"
+    }
+  ]
+}

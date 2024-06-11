@@ -1,0 +1,15 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "droid_create_diamond_recipe:diamond_chunk"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:diamond",
+      "count": 2
+    }
+  ],
+  "processingTime": 500
+}

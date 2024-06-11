@@ -1,0 +1,13 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "droid_create_diamond_recipe:heated_scorial_coal_block"
+    }
+  ],
+  "results": [
+    {
+      "item": "droid_create_diamond_recipe:scorial_coal_block"
+    }
+  ]
+}
