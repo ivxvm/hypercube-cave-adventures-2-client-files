@@ -1,21 +1,19 @@
-const BATCH_SIZE = 8;
-const MAX_BATCHES_COUNT = 32;
+const MAX_DROPS = 256;
+const DESPAWN_TIMEOUT = 1024;
 
-let rootBatch = { drops: [], nextBatch: null };
-let lastBatch = rootBatch;
-let currentBatchesCount = 1;
+let tickCounter = 0;
 
-ItemEvents.dropped(event => {
-    lastBatch.drops.push(event.item);
-    if (lastBatch.drops.length >= BATCH_SIZE) {
-        let newBatch = { drops: [], nextBatch: null };
-        lastBatch.nextBatch = newBatch;
-        lastBatch = newBatch;
-        currentBatchesCount += 1;
-    }
-    if (currentBatchesCount > MAX_BATCHES_COUNT) {
-        rootBatch.drops.forEach(item => item.count = 0);
-        rootBatch = rootBatch.nextBatch;
-        currentBatchesCount -= 1;
+LevelEvents.tick(event => {
+    tickCounter -= 1;
+    if (tickCounter > 0) return;
+    tickCounter = DESPAWN_TIMEOUT;
+    let drops = event.level.getEntities()
+        .filter(entity => entity.type === "minecraft:item");
+    if (drops.length > MAX_DROPS) {
+        drops.sort((a, b) => b.age - a.age);
+        let n = drops.length - MAX_DROPS;
+        for (let i = 0; i < n; i++) {
+            drops[i].discard();
+        }
     }
 });
