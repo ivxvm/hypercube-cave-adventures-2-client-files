@@ -6,8 +6,9 @@ local/
 runtime/
 versions/
 libraries/
-logs/
 modernfix/
 saves/
 screenshots/
 simplebackups/
+logs/*
+!/logs/.gitkeep
