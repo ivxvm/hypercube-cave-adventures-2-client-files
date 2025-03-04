@@ -3,6 +3,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'create:mechanical_crafting/ascended_flight_ring' });
     event.remove({ mod: 'createendertransmission' });
     event.remove({ id: 'createdeco:pressing/zinc_sheet' });
+    event.remove({ id: 'easy_villagers:iron_farm' });
 
     event.replaceInput(
         { input: 'createdeco:zinc_sheet' },
